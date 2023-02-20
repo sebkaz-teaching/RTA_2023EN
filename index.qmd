@@ -10,11 +10,11 @@ Winter semester 2022/2023,
 SGH Warsaw School of Economics
 
 
-Basics information about this course can be found in the [sylabus](/RTA_2023EN/syllabus).
+Basics information about this course can be found in the [sylabus](/RTA_2023EN/sylabus).
 
-List of [books](/RTA_2023EN/Books)! I recommend.
+List of [books](/RTA_2023EN/ksiazki)! I recommend.
 
-If You don't know what Python is go [here](/RTA_2023EN/Python).
+If You don't know what Python is go [here](/RTA_2023EN/info).
 
 ## Schedule
 
