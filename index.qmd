@@ -10,11 +10,11 @@ Winter semester 2022/2023,
 SGH Warsaw School of Economics
 
 
-Basics information about this course can be found in the [sylabus](/RTA_2023EN/sylabus).
+Basics information about this course can be found in the [sylabus](/sylabus).
 
-List of [books](/RTA_2023EN/ksiazki)! I recommend.
+List of [books](/ksiazki)! I recommend.
 
-If You don't know what Python is go [here](/RTA_2023EN/info).
+If You don't know what Python is go [here](/info).
 
 ## Schedule
 
@@ -23,33 +23,33 @@ If You don't know what Python is go [here](/RTA_2023EN/info).
 The lecture is carried out in hybrid mode.
 It is OPTIONAL and takes place in Aula I building G
 
-1. 20-02-2023 (monday) 09:50-11:30 - Lecture 1
-2. 27-02-2023 (monday) 09:50-11:30 - Lecture 2
-3. 06-03-2023 (monday) 09:50-11:30 - Lecture 3
-4. 13-03-2023 (monday) 09:50-11:30 - Lecture 4
+1. 20-02-2023 (monday) 08:00-9:30 - Lecture 1
+2. 27-02-2023 (monday) 08:00-9:30 - Lecture 2
+3. 06-03-2023 (monday) 08:00-9:30 - Lecture 3
+4. 13-03-2023 (monday) 08:00-9:30 - Lecture 4
 
 Lectures end with a TEST: 10 questions - 20 minutes.
 The test is conducted via MS Teams.
 
-#### Laboratoria
+#### Labs
 
 1. 21-03-2023 (tuesday) 08:00-11:30 - C4D 2 groups
-2. 28-03-2023 (tuesday) 11:40-17:00 - C4D, 3 grupy
-3. 04-04-2023 (tuesday) 11:40-17:00 - C4D, 3 grupy 
-4. 18-04-2023 (tuesday) 11:40-17:00 - C4D, 3 grupy 
-5. 25-04-2023 (tuesday) 11:40-17:00 - C4D, 3 grupy 
-6. 09-05-2023 (tuesday) 11:40-17:00 - C4D, 3 grupy 
-7. 16-05-2023 (tuesday) 11:40-17:00 - C4D, 3 grupy 
-8. 23-05-2023 (tuesday) 11:40-17:00 - C4D, 3 grupy 
-9. 30-05-2023 (tuesday) 11:40-17:00 - C4D, 3 grupy
-10. 06-06-2023 (tuesday) 11:40-17:00 - C4D, 3 grupy 
+2. 28-03-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy
+3. 04-04-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
+4. 18-04-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
+5. 25-04-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
+6. 09-05-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
+7. 16-05-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
+8. 23-05-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
+9. 30-05-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy
+10. 06-06-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
 
 #### Place
 
 Lectures 1-4: G-Aula I
 Labs 1-10: C-4D
 
-#### Zaliczenie i Egzamin
+#### Exam
 
 Lectures will end with a test (last class).
 Positive evaluation of the test (above 13 points) entitles you to carry out the exercises.
@@ -69,7 +69,7 @@ Project requirements:
 
 ## Technology
 
-Uczestnicząc w zajęciach musisz opanować i przynajmniej w podstawowym zakresie posługiwać się następującymi technologiami informatycznymi:
+Participating in the classes, you must know and at least use the following information technologies:
 
 1. [GIT](https://sebkaz-teaching.github.io/RTA_2023EN/info/) 
 2. Python, Jupyter notebook, Jupyter lab, Colab
