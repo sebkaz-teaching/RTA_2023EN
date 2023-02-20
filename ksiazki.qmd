@@ -1,8 +1,8 @@
 ---
-title: Książki i strony WWW
+title: Books and WWW pages
 ---
 
-## Książki 
+## Books 
 
 ### Stream Processing
 
@@ -61,7 +61,7 @@ title: Książki i strony WWW
 3. J. Quddus _Machine Learning with Apache Spark Quick Start Guide (ebook)_ [Zobacz opis](http://helion.pl/view/111546/e_15el.html) lub [Kup e-book](http://helion.pl/add111546~e_15el._ebook)
 
 
-### Programowanie
+### Programming
 
 1. G. Coldwind _Zrozumieć programowanie_ [Zobacz opis](http://helion.pl/view/111546/e_1ott.html) lub [Kup książkę](http://helion.pl/add111546~e_1ott), [Kup e-book](http://helion.pl/add111546~e_1ott_ebook)
 
@@ -88,7 +88,7 @@ title: Książki i strony WWW
 
 3. K. Reitz, T. Schlusser _Przewodnik po Pythonie. Dobre praktyki i praktyczne narzędzia_. [Zobacz opis](http://helion.pl/view/111546/przepy) lub [Kup teraz](http://helion.pl/add111546~przepy), [Kup e-book](http://helion.pl/add111546~przepy_ebook)
 
-### Różne
+### Other
 
 1. B.Tate, L. Carslon, C. Hiibs, _Ruby on Rails. Wprowadzenie. Wydanie II_ [Zobacz opis](http://helion.pl/view/111546/rubyw2) lub [Kup e-book](http://helion.pl/add111546~rubyw2_ebook)
 
@@ -102,7 +102,7 @@ title: Książki i strony WWW
 
 1. A. Jacquier, O. Kondratyev, _Quantum Machine Learning and Optimisation in Finance. On the Road to Quantum Advantage_.
 
-## Strony WWW
+##  WWW Pages
 
 ### Software 
 
@@ -113,7 +113,7 @@ title: Książki i strony WWW
 5. [Anaconda](http://continuum.io/downloads)
 6. [Docker](https://docs.docker.com/get-docker/)
 
-### Pakiety python dla analiz danych
+### Python libraries for data analysis
 
 1. [NumPy](http://www.numpy.org)
 2. [SciPy](http://www.scipy.org)
@@ -127,7 +127,7 @@ title: Książki i strony WWW
 10. [TensorFlow](https://www.tensorflow.org)
 11. [Virtual ENV](https://docs.python.org/3/tutorial/venv.html)
 
-### Edytory tekstu
+### Text editors
 
 1. [Notepad++](https://notepad-plus-plus.org/download)
 2. [Sublime Text](https://www.sublimetext.com)
@@ -148,11 +148,11 @@ title: Książki i strony WWW
 7. [Jupyter lab](https://www.youtube.com/watch?v=NSiPeoDpwuI)
 8. [Speed up jupyter notebook](https://towardsdatascience.com/speed-up-jupyter-notebooks-20716cbe2025)
 
-### Przetwarzanie danych
+### ETL
 
 1. [data cookbook](https://www.datafix.com.au/cookbook/index.html)
 
-### Zbiory danych
+### Datasets
 
 - [Internet Archive](https://oreil.ly/tIjl9)
 - [Reddit](http://reddit.com/r/datasets)
@@ -169,6 +169,6 @@ title: Książki i strony WWW
 2. [40+ Python Statistics For Data Science Resources](https://www.datacamp.com/community/tutorials/python-statistics-data-science)
 3. [Practical Business Python](http://pbpython.com/)
 
-### kursy ML
+### ML course
 
 1. [Kurs Machine Learning - Andrew Ng, Stanford](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
