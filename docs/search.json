@@ -1,0 +1,359 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Informacje ogólne",
+    "section": "",
+    "text": "Kod: 222890-D\nSemestr zimowy 2022/2023, SGH Szkoła Główna Handlowa w Warszawie\nPodstawowe informacje znajdziesz w sylabusie.\nCiekawe książki i strony internetowe zamieszczone zostały w zakładce książki. Jeśli chciał(a)byś coś dodać prześlij informację przez MS teams."
+  },
+  {
+    "objectID": "index.html#kalendarz",
+    "href": "index.html#kalendarz",
+    "title": "Informacje ogólne",
+    "section": "Kalendarz",
+    "text": "Kalendarz\n\nWykład\nWykład jest realizowany w trybie hybrydowym. Jest on NIEOBOWIĄZKOWY i odbywa się w Auli I bud G\n\n20-02-2023 (poniedziałek) 09:50-11:30 - Wykład 1\n27-02-2023 (poniedziałek) 09:50-11:30 - Wykład 2\n06-03-2023 (poniedziałek) 09:50-11:30 - Wykład 3\n13-03-2023 (poniedziałek) 09:50-11:30 - Wykład 4\n\nWykłady kończą się TESTEM: 10 pytań - 20 minut. Test przeprowadzany jest za pośrednictwem MS Teams.\n\n\nLaboratoria\n\n20-03-2023 (poniedziałek) 08:00-13:30 - C4D 3 grupy\n21-03-2023 (wtorek) 11:40-17:00 - C4D 3 grupy\n27-03-2023 (poniedziałek) 08:00-13:30 - C4D, 3 grupy\n28-03-2023 (wtorek) 11:40-17:00 - C4D, 3 grupy\n03-04-2023 (poniedziałek) 08:00-13:30 - C4D, 3 grupy\n04-04-2023 (wtorek) 11:40-17:00 - C4D, 3 grupy\n17-04-2023 (poniedziałek) 08:00-13:30 - C4D, 3 grupy\n18-04-2023 (wtorek) 11:40-17:00 - C4D, 3 grupy\n24-04-2023 (poniedziałek) 08:00-13:30 - C4D, 3 grupy\n25-04-2023 (wtorek) 11:40-17:00 - C4D, 3 grupy\n08-05-2023 (poniedziałek) 08:00-13:30 - C4D, 3 grupy\n09-05-2023 (wtorek) 11:40-17:00 - C4D, 3 grupy\n15-05-2023 (poniedziałek) 08:00-13:30 - C4D, 3 grupy\n16-05-2023 (wtorek) 11:40-17:00 - C4D, 3 grupy\n22-05-2023 (poniedziałek) 08:00-13:30 - C4D, 3 grupy\n23-05-2023 (wtorek) 11:40-17:00 - C4D, 3 grupy\n29-05-2023 (poniedziałek) 08:00-13:30 - C4D, 3 grupy\n30-05-2023 (wtorek) 11:40-17:00 - C4D, 3 grupy\n05-06-2023 (poniedziałek) 08:00-13:30 - C4D, 3 grupy\n06-06-2023 (wtorek) 11:40-17:00 - C4D, 3 grupy\n\n\n\nMiejsce\nWykłady 1-5: G-Aula I Laboratorium 1-9: C-4D\n\n\nZaliczenie i Egzamin\nWykłady zakończone zostaną testem (ostatnie zajęcia). Pozytywna ocena z testu (powyżej 13 pkt) upoważnia do realizacji ćwiczeń.\nPo ćwiczeniach realizowane będą zadania domowe przekazywane za pośrednictwem platformy teams.\nZaliczenie wszystkich ćwiczeń i zadań upoważnia do realizacji projektu.\nProjekt powinien być realizowany w grupach max 5 osobowych.\nWymagania projektu:\n\nProjekt powinien przedstawiać BIZNESOWY PROBLEM, który można realizować wykorzystując informacje podawane w trybie online. (Nie oznacza to, że nie można korzystać z procesowania batchowego np w celu wygenerowania modelu).\nDane powinny być przesyłane do Apache Kafki i stamtąd poddawane dalszemu procesowaniu i analizie.\nJęzyk programowania jest dowolny - dotyczy każdego komponentu projektu.\nMożna wykorzystać narzędzia BI\nŹródłem danych może być tabela, sztucznie generowane dane, IoT itp."
+  },
+  {
+    "objectID": "sylabus.html",
+    "href": "sylabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Nazwa przedmiotu: Analiza danych w czasie rzeczywistym\nJednostka: SGH w Warszawie\nKod przedmiotu: 222890-D, 222890-S\nPunkty ECTS: 3\nJęzyk prowadzenia: polski\nPoziom przedmiotu: średnio-zaawansowany\nProwadzący: Sebastian Zając, sebastian.zajac@sgh.waw.pl\nWebsite: https://sebkaz-teaching.github.io/RTA_2023/"
+  },
+  {
+    "objectID": "sylabus.html#cel-przedmiotu",
+    "href": "sylabus.html#cel-przedmiotu",
+    "title": "Syllabus",
+    "section": "Cel Przedmiotu",
+    "text": "Cel Przedmiotu\nPodejmowanie prawidłowych decyzji na podstawie danych i ich analiz w biznesie to proces i codzienność. Nowoczesne metody modelowania przez uczenie maszynowe (ang. machine learning), sztuczną inteligencję (AI), bądź głębokie sieci neuronowe (ang. deep learning) pozwalają nie tylko na lepsze rozumienie biznesu, ale i wspomagają podejmowanie kluczowych dla niego decyzji. Rozwój technologii oraz coraz to nowsze koncepcje biznesowe pracy bezpośrednio z klientem wymagają nie tylko prawidłowych, ale i odpowiednio szybkich decyzji. Oferowane zajęcia mają na celu przekazanie studentom doświadczenia oraz kompleksowej wiedzy teoretycznej w zakresie przetwarzania i analizy danych w czasie rzeczywistym oraz zaprezentowanie najnowszych technologii informatycznych (darmowych oraz komercyjnych) służących do przetwarzania danych ustrukturyzowanych (pochodzących np. z hurtowni danych) jak i nieustrukturyzowanych (np. obrazy, dźwięk, strumieniowanie video) w trybie on-line. W toku zajęć przedstawiona zatem zostanie filozofia analizy dużych danych w czasie rzeczywistym jako część koncepcji Big Data w połączeniu ze strumieniowaniem danych, programowaniem strumieniowym w języku Python, R oraz SAS. Zostanie przedstawiona tzw. struktury lambda oraz kappa służące do przetwarzania danych w data lake wraz z omówieniem problemów i trudności jakie spotyka się w realizacji modelowania w czasie rzeczywistym dla dużej ilości danych. Wiedza teoretyczna zdobywana będzie (oprócz części wykładowej) poprzez realizację przypadków testowych w narzędziach takich jak Apache Spark, Nifi, Microsoft Azure, czy SAS. Na zajęciach laboratoryjnych studenci korzystać będą z pełni skonfigurowanych środowisk programistycznych przygotowanych do przetwarzania, modelowania i analizy danych. Tak aby oprócz umiejętności i znajomości technik analitycznych studenci poznali i zrozumieli najnowsze technologie informatyczne związane z przetwarzaniem danych w czasie rzeczywistym."
+  },
+  {
+    "objectID": "sylabus.html#program-przedmiotu",
+    "href": "sylabus.html#program-przedmiotu",
+    "title": "Syllabus",
+    "section": "Program przedmiotu",
+    "text": "Program przedmiotu\n\nModelowanie, uczenie i predykcja w trybie wsadowym (offline learning) i przyrostowym (online learning). Problemy przyrostowego uczenia maszynowego.\nModele przetwarzania danych w Big Data. Od plików płaskich do Data Lake. Mity i fakty przetwarzania danych w czasie rzeczywistym.\nSystemy NRT (near real-time systems), pozyskiwanie danych, streaming, analityka.\nAlgorytmy estymacji parametrów modelu w trybie przyrostowym. Stochastic Gradient Descent.\nArchitektura Lambda i Kappa. Zaprojektowanie architektury IT dla przetwarzania danych w czasie rzeczywistym.\nPrzygotowanie mikroserwisu z modelem ML do zastosowania produkcyjnego.\nStrukturyzowane i niestrukturyzowane dane. Relacyjne bazy danych i bazy NoSQL\nAgregacje i raportowanie w bazach NoSQL (na przykładzie bazy Cassandra).\nPodstawy obiektowego programowania w Pythonie w analizie regresji liniowej, logistycznej oraz sieci neuronowych z wykorzystaniem biblioteki sklearn, TensorFLow i Keras\nArchitektura IT przetwarzania Big Data. Przygotowanie wirtualnego środowiska dla Sparka. Pierwszy program w PySpark. Wykorzystanie przygotowanego środowiska do analizy danych z serwisu Twitter.\nAnaliza 1 Detekcja wyłudzeń w zgłoszeniach szkód samochodowych w czasie rzeczywistym z wykorzystaniem przygotowanego, darmowego środowiska. Cz 1.\nAnaliza 1 Detekcja wyłudzeń w zgłoszeniach szkód samochodowych w czasie rzeczywistym z wykorzystaniem przygotowanego, darmowego środowiska. Cz 2.\nPrzygotowanie środowiska Microsoft Azure. Detekcja anomalii i wartości odstających w logowanych zdarzeniach sieci Ethernet cz 1.\nAnaliza 2 Detekcja anomalii i wartości odstających w logowanych zdarzeniach sieci Ethernet cz 2. Inne narzędzia IT do szybkiej analizy logów.\nNarzędzia SAS do strumieniowego przetwarzania danych"
+  },
+  {
+    "objectID": "sylabus.html#efekty-kształcenia",
+    "href": "sylabus.html#efekty-kształcenia",
+    "title": "Syllabus",
+    "section": "Efekty kształcenia",
+    "text": "Efekty kształcenia\n\nWiedza:\n\n\nZna historię i filozofię modeli przetwarzania danych Powiązania: (Analiza danych - Big Data)K2A_W01, (Analiza danych - Big Data)K2A_W03, (OGL)O2_W01, (OGL) O2_W02, (OGL)O2_W04, (OGL)O2_W07 Metody weryfikacji: kolokwium pisemne (pytania otwarte, zadania) Metody dokumentacji: wykaz pytań z kolokwium\nZna typy danych ustrukturyzowanych jak i nieustrukturyzowanych Powiązania: (Analiza danych - Big Data)K2A_W02, (Analiza danych - Big Data)K2A_W04, (OGL)O2_W04, (OGL) O2_W07 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nZna możliwości i obszary zastosowania procesowania danych w czasie rzeczywistym Powiązania: (Analiza danych - Big Data)K2A_W01, (Analiza danych - Big Data)K2A_W02, (OGL)O2_W01, (OGL) O2_W04, (OGL)O2_W08 Metody weryfikacji: egzamin pisemny (pytania otwarte, zadania) Metody dokumentacji: wykaz pytań egzaminacyjnych\nZna teoretyczne aspekty struktury lambda i kappa Powiązania: (Analiza danych - Big Data)K2A_W03, (Analiza danych - Big Data)K2A_W05, (OGL)O2_W04, (OGL) O2_W06, (OGL)O2_W08 Metody weryfikacji: kolokwium pisemne (pytania otwarte, zadania) Metody dokumentacji: wykaz pytań z kolokwium\nUmie wybrać strukturę IT dla danego problemu biznesowego Powiązania: (Analiza danych - Big Data)K2A_W02, (Analiza danych - Big Data)K2A_W03, (OGL)O2_W01, (OGL) O2_W04, (OGL)O2_W06, (OGL)O2_W08 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nRozumie potrzeby biznesowe podejmowania decyzji w bardzo krótkim czasie Powiązania: (Analiza danych - Big Data)K2A_W01, (Analiza danych - Big Data)K2A_W05, (OGL)O2_W01, (OGL) O2_W04, (OGL)O2_W06, (OGL)O2_W08 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\n\n\nUmiejętności:\n\n\nRozróżnia typy danych strukturyzowanych jak i niestrukturyzowanych Powiązania: K2A_U02, K2A_U07, K2A_U10, O2_U02 Metody weryfikacji: test Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUmie przygotować, przetwarzać oraz zachowywać dane generowane w czasie rzeczywistym Powiązania: K2A_U03, K2A_U05, K2A_U09, O2_U02, O2_U04 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nRozumie ograniczenia wynikające z czasu przetwarzania przez urządzenia oraz systemy informatyczne Powiązania: K2A_U01, K2A_U07, K2A_U11, O2_U02 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUmie zastosować i skonstruować system do przetwarzania w czasie rzeczywistym Powiązania: K2A_U05, K2A_U10, O2_U05, O2_U06, O2_U07 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUmie przygotować raportowanie dla systemu przetwarzania w czasie rzeczywistym Powiązania: K2A_U02, K2A_U08, K2A_U10, O2_U06, O2_U07 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\n\n\nKompetencje:\n\n\nFormułuje problem analityczny wraz z jego informatycznym rozwiązaniem Powiązania: K2A_K01, K2A_K03, O2_K02, O2_K06, O2_K07 Metody weryfikacji: projekt, prezentacja Metody dokumentacji: prace pisemne studenta (w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUtrwala umiejętność samodzielnego uzupełniania wiedzy teoretycznej jak i praktycznej w zakresie programowania, modelowania, nowych technologii informatycznych z wykorzystaniem analizy w czasie rzeczywistym. Powiązania: K2A_K02, K2A_K04, (OGL)O2_K01, (OGL) O2_K02, (OGL)O2_K05, (OGL)O2_K06 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)"
+  },
+  {
+    "objectID": "sylabus.html#realizacja-przedmiotu",
+    "href": "sylabus.html#realizacja-przedmiotu",
+    "title": "Syllabus",
+    "section": "Realizacja przedmiotu",
+    "text": "Realizacja przedmiotu\n\negzamin testowy 30%\nkolokwium 30%\nreferaty/eseje 40%"
+  },
+  {
+    "objectID": "sylabus.html#literatura",
+    "href": "sylabus.html#literatura",
+    "title": "Syllabus",
+    "section": "Literatura",
+    "text": "Literatura\n\nZając S., red. “Modelowanie dla biznesu, Analityka w czasie rzeczywistym - narzędzia informatyczne i biznesowe”, Oficyna Wydawnicza SGH, Warszawa 2022\nFrątczak E., red. “Modelowanie dla biznesu, Regresja logistyczna, Regresja Poissona, Survival Data Mining, CRM, Credit Scoring”. SGH, Warszawa 2019.\nFrątczak E., red., “Zaawansowane metody analiz statystycznych”, Oficyna Wydawnicza SGH, Warszawa 2012.\nBellemare A., “Mikrousługi oparte na zdarzeniach. Wykorzystanie danych w organizacji na dużą skalę”, O’Reilly 2021\nLakshmanan V., Robinson S., Munn M., “Wzorce projektowe uczenia maszynowego. Rozwiązania typowych problemów dotyczących przygotowania danych, konstruowania modeli i MLOps”, O’Reilly 2021\nShapira G., Palino T., Sivaram R., Petty K., “Kafka the definitive guide. Real-time data and stream processing at scale” O’Reilly 2022\nGift N., Deza A., “Practical MLOps. Operationalizing Machine Learning Models”, O’Reilly 2022."
+  },
+  {
+    "objectID": "sylabus.html#literatura-uzupełniająca",
+    "href": "sylabus.html#literatura-uzupełniająca",
+    "title": "Syllabus",
+    "section": "Literatura uzupełniająca",
+    "text": "Literatura uzupełniająca\n\nFrątczak E., “Statistics for Management & Economics” SGH, Warszawa, 2015\nSimon P., “Too Big to IGNORE. The Business Case for Big Data”, John Wiley & Sons Inc., 2013\nNandi A. “Spark for Python Developers”, 2015\nFrank J. Ohlhorst. “Big Data Analytics. Turning Big Data into Big Money”. John Wiley & Sons. Inc. 2013\nRussell J. “Zwinna analiza danych Apache Hadoop dla każdego”, Helion, 2014\nTodman C., “Projektowanie hurtowni danych, Wspomaganie zarządzania relacjami z klientami”, Helion, 2011"
+  },
+  {
+    "objectID": "index.html#technologie",
+    "href": "index.html#technologie",
+    "title": "Informacje ogólne",
+    "section": "Technologie",
+    "text": "Technologie\nUczestnicząc w zajęciach musisz opanować i przynajmniej w podstawowym zakresie posługiwać się następującymi technologiami informatycznymi:\n\nGIT\nPython, Jupyter notebook, Jupyter lab, Colab\nDocker\nApache Spark, Apache Flink, Apache Kafka, Apache Beam\nDatabricks Community edition Web page."
+  },
+  {
+    "objectID": "ksiazki.html",
+    "href": "ksiazki.html",
+    "title": "Książki i strony WWW",
+    "section": "",
+    "text": "G. Maas, F. Garillot Stream Processing with Apache Spark Zobacz opis lub Kup e-book\nF. Hueske, V. Kalavri Stream Processing with Apache Flink Zobacz opis lub Kup e-book\n\n\n\n\n\nW. McKinney Python w analizie danych. Przetwarzanie danych za pomocą pakietów Pandas i NumPy oraz środowiska IPython. Wydanie II Zobacz opis lub Kup książkę, Kup e-book\nD. McIlwraith, H. Marmanis, D. Babenko Inteligentna sieć. Algorytmy przyszłości. Wydanie II (ebook) Zobacz opis lub Kup książkę, Kup e-book\nJoel Grus Data science od podstaw. Analiza danych w Pythonie. Wydanie II. Zobacz opis lub Kup książkę, Kup e-book.\nJohn W. Foreman Mistrz analizy danych. Od danych do wiedzy. Zobacz opis lub Kup książkę, Kup e-book.\nA. Geron Uczenie maszynowe z użyciem Scikit-Learn i TensorFlow. Wydanie II. Zobacz opis lub Kup książkę, Kup e-book.\nAlberto Boschetti, Luca Massaron Python. Podstawy nauki o danych. Zobacz opis lub Kup książkę.\nSebastian Raschka Python. Uczenie maszynowe. Wydanie II. Zobacz opis lub Kup książkę.\nR. Schutt, C. O’Neil Badanie danych. Raport z pierwszej lini działań. Zobacz opis lub Kup książkę.\nT. Segaran Nowe usługi 2.0. Przewodnik po analizie zbiorów danych Zobacz opis lub Kup książkę, Kup e-book\nT. Morzy Eksploracja Danych. Metody i algorytmy, PWN, 2013.\nKrzyśko, Wołyński, Górecki, Skorzybut, Systemy uczące się . WNT, 2008\n\n\n\n\n\nF. Chollet Deep Learning. Praca z językiem Python i biblioteką Keras. Zobacz opis lub Kup książkę, Kup e-book\nJ. Patterson, A. Gibson Deep Learning. Praktyczne wprowadzenie (ebook) Zobacz opis lub Kup e-book\nV. Zocca, G. Spacagna, D. Slater, P. Roelants. Deep Learning. Uczenie głębokie z językiem Python. Sztuczna inteligencja i sieci neuronowe Zobacz opis lub Kup ebook\nD. Osinga Deep Learning. Receptury Zobacz opis lub Kup książkę, Kup e-book\nS. Weidman Uczenie głębokie od zera. Podstawy implementacji w Pythonie Zobacz opis lub Kup książkę, Kup e-book\nD. Foster Deep learning i modelowanie generatywne. Jak nauczyć komputer malowania, pisania, komponowania i grania Zobacz opis lub Kup książkę, Kup e-book\nJ. Howard, S. Gugger Deep learning dla programistów. Budowanie aplikacji AI za pomocą fastai i PyTorch Zobacz opis lub Kup książkę, Kup e-book\n\n\n\n\n\nSpark. Zaawansowana analiza danych (ebook) Zobacz opis lub Kup e-book\nB. Chambers, M. Zaharia Spark: The Definitive Guide. Big Data Processing Made Simple (ebook) Zobacz opis lub Kup e-book\nJ. Quddus Machine Learning with Apache Spark Quick Start Guide (ebook) Zobacz opis lub Kup e-book\n\n\n\n\n\nG. Coldwind Zrozumieć programowanie Zobacz opis lub Kup książkę, Kup e-book\nA. Allain C++. Przewodnik dla początkujących Zobacz opis lub Kup książkę, Kup e-book\nS. Dasgupta, C. Papadimitriou, U. Vazirani Algorytmy PWN.\n\n\n\n\n\nJ. Krochmalski Docker. Projektowanie i wdrażanie aplikacji Zobacz opis lub Kup książkę, Kup e-book\nR. McKendrick, S. Gallagher Docker. Programowanie aplikacji dla zaawansowanych. Wydanie II Zobacz opis lub Kup książkę, Kup e-book\n\n\n\n\n\nP. Bell, B. Beer GitHub. Przyjazny przewodnik (ebook) Zobacz opis lub Kup e-book\n\n\n\n\n\nC. Althoff, Programista Samouk. Profesjonalny przewodnik do samodzielnej nauki kodowania. Zobacz opis lub Kup teraz, Kup e-book\nA. Sweigart, Automatyzacja nudnych zadań z pythonem. Zobacz opis lub Kup książkę, Kup e-book\nK. Reitz, T. Schlusser Przewodnik po Pythonie. Dobre praktyki i praktyczne narzędzia. Zobacz opis lub Kup teraz, Kup e-book\n\n\n\n\n\nB.Tate, L. Carslon, C. Hiibs, Ruby on Rails. Wprowadzenie. Wydanie II Zobacz opis lub Kup e-book\nB. Frain, Responsive Web Design. Projektowanie elastycznych witryn w HTML5 i CSS3, Zobacz opis lub Kup e-book\nK. Beck, TDD. Sztuda tworzenia, Zobacz opis lub Kup teraz, Kup e-book\nB. Dayley, Node.js, MongoDB, AngularJS. Kompendium wiedzy, Zobacz opis lub Kup teraz, Kup e-book\n\n\n\n\n\nA. Jacquier, O. Kondratyev, Quantum Machine Learning and Optimisation in Finance. On the Road to Quantum Advantage."
+  },
+  {
+    "objectID": "ksiazki.html#machine-learning-with-pyton",
+    "href": "ksiazki.html#machine-learning-with-pyton",
+    "title": "Książki",
+    "section": "Machine Learning with Pyton",
+    "text": "Machine Learning with Pyton\n\nW. McKinney Python w analizie danych. Przetwarzanie danych za pomocą pakietów Pandas i NumPy oraz środowiska IPython. Wydanie II Zobacz opis lub Kup książkę, Kup e-book\nD. McIlwraith, H. Marmanis, D. Babenko Inteligentna sieć. Algorytmy przyszłości. Wydanie II (ebook) Zobacz opis lub Kup książkę, Kup e-book\nJoel Grus Data science od podstaw. Analiza danych w Pythonie. Wydanie II. Zobacz opis lub Kup książkę, Kup e-book.\nJohn W. Foreman Mistrz analizy danych. Od danych do wiedzy. Zobacz opis lub Kup książkę, Kup e-book.\nA. Geron Uczenie maszynowe z użyciem Scikit-Learn i TensorFlow. Wydanie II. Zobacz opis lub Kup książkę, Kup e-book.\nAlberto Boschetti, Luca Massaron Python. Podstawy nauki o danych. Zobacz opis lub Kup książkę.\nSebastian Raschka Python. Uczenie maszynowe. Wydanie II. Zobacz opis lub Kup książkę.\nR. Schutt, C. O’Neil Badanie danych. Raport z pierwszej lini działań. Zobacz opis lub Kup książkę.\nT. Segaran Nowe usługi 2.0. Przewodnik po analizie zbiorów danych Zobacz opis lub Kup książkę, Kup e-book\nT. Morzy Eksploracja Danych. Metody i algorytmy, PWN, 2013.\nKrzyśko, Wołyński, Górecki, Skorzybut, Systemy uczące się . WNT, 2008"
+  },
+  {
+    "objectID": "ksiazki.html#deep-learning",
+    "href": "ksiazki.html#deep-learning",
+    "title": "Książki",
+    "section": "Deep Learning",
+    "text": "Deep Learning\n\nF. Chollet Deep Learning. Praca z językiem Python i biblioteką Keras. Zobacz opis lub Kup książkę, Kup e-book\nJ. Patterson, A. Gibson Deep Learning. Praktyczne wprowadzenie (ebook) Zobacz opis lub Kup e-book\nV. Zocca, G. Spacagna, D. Slater, P. Roelants. Deep Learning. Uczenie głębokie z językiem Python. Sztuczna inteligencja i sieci neuronowe Zobacz opis lub Kup ebook\nD. Osinga Deep Learning. Receptury Zobacz opis lub Kup książkę, Kup e-book\nS. Weidman Uczenie głębokie od zera. Podstawy implementacji w Pythonie Zobacz opis lub Kup książkę, Kup e-book\nD. Foster Deep learning i modelowanie generatywne. Jak nauczyć komputer malowania, pisania, komponowania i grania Zobacz opis lub Kup książkę, Kup e-book\nJ. Howard, S. Gugger Deep learning dla programistów. Budowanie aplikacji AI za pomocą fastai i PyTorch Zobacz opis lub Kup książkę, Kup e-book"
+  },
+  {
+    "objectID": "ksiazki.html#apache-spark",
+    "href": "ksiazki.html#apache-spark",
+    "title": "Książki",
+    "section": "Apache SPARK",
+    "text": "Apache SPARK\n\nSpark. Zaawansowana analiza danych (ebook) Zobacz opis lub Kup e-book\nB. Chambers, M. Zaharia Spark: The Definitive Guide. Big Data Processing Made Simple (ebook) Zobacz opis lub Kup e-book\nJ. Quddus Machine Learning with Apache Spark Quick Start Guide (ebook) Zobacz opis lub Kup e-book"
+  },
+  {
+    "objectID": "ksiazki.html#programowanie",
+    "href": "ksiazki.html#programowanie",
+    "title": "Książki",
+    "section": "Programowanie",
+    "text": "Programowanie\n\nG. Coldwind Zrozumieć programowanie Zobacz opis lub Kup książkę, Kup e-book\nA. Allain C++. Przewodnik dla początkujących Zobacz opis lub Kup książkę, Kup e-book\nS. Dasgupta, C. Papadimitriou, U. Vazirani Algorytmy PWN."
+  },
+  {
+    "objectID": "ksiazki.html#docker",
+    "href": "ksiazki.html#docker",
+    "title": "Książki",
+    "section": "Docker",
+    "text": "Docker\n\nJ. Krochmalski Docker. Projektowanie i wdrażanie aplikacji Zobacz opis lub Kup książkę, Kup e-book\nR. McKendrick, S. Gallagher Docker. Programowanie aplikacji dla zaawansowanych. Wydanie II Zobacz opis lub Kup książkę, Kup e-book"
+  },
+  {
+    "objectID": "ksiazki.html#github",
+    "href": "ksiazki.html#github",
+    "title": "Książki",
+    "section": "Github",
+    "text": "Github\n\nP. Bell, B. Beer GitHub. Przyjazny przewodnik (ebook) Zobacz opis lub Kup e-book"
+  },
+  {
+    "objectID": "ksiazki.html#python",
+    "href": "ksiazki.html#python",
+    "title": "Książki",
+    "section": "Python",
+    "text": "Python\n\nC. Althoff, Programista Samouk. Profesjonalny przewodnik do samodzielnej nauki kodowania. Zobacz opis lub Kup teraz, Kup e-book\nA. Sweigart, Automatyzacja nudnych zadań z pythonem. Zobacz opis lub Kup książkę, Kup e-book\nK. Reitz, T. Schlusser Przewodnik po Pythonie. Dobre praktyki i praktyczne narzędzia. Zobacz opis lub Kup teraz, Kup e-book"
+  },
+  {
+    "objectID": "ksiazki.html#różne",
+    "href": "ksiazki.html#różne",
+    "title": "Książki",
+    "section": "Różne",
+    "text": "Różne\n\nB.Tate, L. Carslon, C. Hiibs, Ruby on Rails. Wprowadzenie. Wydanie II Zobacz opis lub Kup e-book\nB. Frain, Responsive Web Design. Projektowanie elastycznych witryn w HTML5 i CSS3, Zobacz opis lub Kup e-book\nK. Beck, TDD. Sztuda tworzenia, Zobacz opis lub Kup teraz, Kup e-book\nB. Dayley, Node.js, MongoDB, AngularJS. Kompendium wiedzy, Zobacz opis lub Kup teraz, Kup e-book"
+  },
+  {
+    "objectID": "indexD.html",
+    "href": "indexD.html",
+    "title": "Informacje ogólne",
+    "section": "",
+    "text": "Kod: 222890-D\nSemestr zimowy 2022/2023, SGH Szkoła Główna Handlowa w Warszawie\nSzczegółowy opis znajdziesz w sylabusie. Znajdziesz w nim opis wszystkich wykładów i ćwiczeń oraz proponowaną literaturę.\nInne książki zamieszczone zostały w zakładce książki"
+  },
+  {
+    "objectID": "indexD.html#kalendarz",
+    "href": "indexD.html#kalendarz",
+    "title": "Informacje ogólne",
+    "section": "Kalendarz",
+    "text": "Kalendarz\n\n20-02-2023 (poniedziałek) 09:50-11:30 - Wykład 1\n27-02-2023 (poniedziałek) 09:50-11:30 - Wykład 2\n06-03-2023 (poniedziałek) 09:50-11:30 - Wykład 3\n13-03-2023 (poniedziałek) 09:50-11:30 - Wykład 4\n20-03-2023 (poniedziałek) 09:50-11:30 - Wykład 5\n20-03-2022 (poniedziałek) 08:00-13:30 - Cwiczenia 1, 3 grupy\n21-03-2022 (wtorek) 11:40-17:00 - Cwiczenia 1, 3 grupy\n\n27-03-2022 (poniedziałek) 08:00-13:30 - Cwiczenia 2, 3 grupy\n28-03-2022 (wtorek) 11:40-17:00 - Cwiczenia 2, 3 grupy\n03-04-2022 (poniedziałek) 08:00-13:30 - Cwiczenia 3, 3 grupy\n04-04-2022 (wtorek) 11:40-17:00 - Cwiczenia 3, 3 grupy\n\n…\n\nMiejsce\nWykłady 1-5: G-Aula I Laboratorium 1-9: C-4D\n\n\nZaliczenie i Egzamin\nOd pierwszych zajęc studenci organizują grupy projektowe (max. 5 osób) do realizacji projektu w ramach przedmiotu.\nTutaj dodać dokładniejszy opis…"
+  },
+  {
+    "objectID": "indexD.html#technologie",
+    "href": "indexD.html#technologie",
+    "title": "Informacje ogólne",
+    "section": "Technologie",
+    "text": "Technologie\n\nGIT\nPython, Jupyter notebook, Jupyter lab, Colab\nDocker\nApache Spark, Apache Flink, Apache Kafka, Apache Beam\nDatabricks Community edition Web page."
+  },
+  {
+    "objectID": "sylabusPL.html",
+    "href": "sylabusPL.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Nazwa przedmiotu: Analiza danych w czasie rzeczywistym\nJednostka: SGH w Warszawie\nKod przedmiotu: 222890-D, 222890-S\nPunkty ECTS: 3\nJęzyk prowadzenia: polski\nPoziom przedmiotu: średnio-zaawansowany\nProwadzący: Sebastian Zając, sebastian.zajac@sgh.waw.pl\nWebsite: https://sebkaz-teaching.github.io/RTA_2023/"
+  },
+  {
+    "objectID": "sylabusPL.html#cel-przedmiotu",
+    "href": "sylabusPL.html#cel-przedmiotu",
+    "title": "Syllabus",
+    "section": "Cel Przedmiotu",
+    "text": "Cel Przedmiotu\nPodejmowanie prawidłowych decyzji na podstawie danych i ich analiz w biznesie to proces i codzienność. Nowoczesne metody modelowania przez uczenie maszynowe (ang. machine learning), sztuczną inteligencję (AI), bądź głębokie sieci neuronowe (ang. deep learning) pozwalają nie tylko na lepsze rozumienie biznesu, ale i wspomagają podejmowanie kluczowych dla niego decyzji. Rozwój technologii oraz coraz to nowsze koncepcje biznesowe pracy bezpośrednio z klientem wymagają nie tylko prawidłowych, ale i odpowiednio szybkich decyzji. Oferowane zajęcia mają na celu przekazanie studentom doświadczenia oraz kompleksowej wiedzy teoretycznej w zakresie przetwarzania i analizy danych w czasie rzeczywistym oraz zaprezentowanie najnowszych technologii informatycznych (darmowych oraz komercyjnych) służących do przetwarzania danych ustrukturyzowanych (pochodzących np. z hurtowni danych) jak i nieustrukturyzowanych (np. obrazy, dźwięk, strumieniowanie video) w trybie on-line. W toku zajęć przedstawiona zatem zostanie filozofia analizy dużych danych w czasie rzeczywistym jako część koncepcji Big Data w połączeniu ze strumieniowaniem danych, programowaniem strumieniowym w języku Python, R oraz SAS. Zostanie przedstawiona tzw. struktury lambda oraz kappa służące do przetwarzania danych w data lake wraz z omówieniem problemów i trudności jakie spotyka się w realizacji modelowania w czasie rzeczywistym dla dużej ilości danych. Wiedza teoretyczna zdobywana będzie (oprócz części wykładowej) poprzez realizację przypadków testowych w narzędziach takich jak Apache Spark, Nifi, Microsoft Azure, czy SAS. Na zajęciach laboratoryjnych studenci korzystać będą z pełni skonfigurowanych środowisk programistycznych przygotowanych do przetwarzania, modelowania i analizy danych. Tak aby oprócz umiejętności i znajomości technik analitycznych studenci poznali i zrozumieli najnowsze technologie informatyczne związane z przetwarzaniem danych w czasie rzeczywistym."
+  },
+  {
+    "objectID": "sylabusPL.html#program-przedmiotu",
+    "href": "sylabusPL.html#program-przedmiotu",
+    "title": "Syllabus",
+    "section": "Program przedmiotu",
+    "text": "Program przedmiotu\n\nModelowanie, uczenie i predykcja w trybie wsadowym (offline learning) i przyrostowym (online learning). Problemy przyrostowego uczenia maszynowego.\nModele przetwarzania danych w Big Data. Od plików płaskich do Data Lake. Mity i fakty przetwarzania danych w czasie rzeczywistym.\nSystemy NRT (near real-time systems), pozyskiwanie danych, streaming, analityka.\nAlgorytmy estymacji parametrów modelu w trybie przyrostowym. Stochastic Gradient Descent.\nArchitektura Lambda i Kappa. Zaprojektowanie architektury IT dla przetwarzania danych w czasie rzeczywistym.\nPrzygotowanie mikroserwisu z modelem ML do zastosowania produkcyjnego.\nStrukturyzowane i niestrukturyzowane dane. Relacyjne bazy danych i bazy NoSQL\nAgregacje i raportowanie w bazach NoSQL (na przykładzie bazy Cassandra).\nPodstawy obiektowego programowania w Pythonie w analizie regresji liniowej, logistycznej oraz sieci neuronowych z wykorzystaniem biblioteki sklearn, TensorFLow i Keras\nArchitektura IT przetwarzania Big Data. Przygotowanie wirtualnego środowiska dla Sparka. Pierwszy program w PySpark. Wykorzystanie przygotowanego środowiska do analizy danych z serwisu Twitter.\nAnaliza 1 Detekcja wyłudzeń w zgłoszeniach szkód samochodowych w czasie rzeczywistym z wykorzystaniem przygotowanego, darmowego środowiska. Cz 1.\nAnaliza 1 Detekcja wyłudzeń w zgłoszeniach szkód samochodowych w czasie rzeczywistym z wykorzystaniem przygotowanego, darmowego środowiska. Cz 2.\nPrzygotowanie środowiska Microsoft Azure. Detekcja anomalii i wartości odstających w logowanych zdarzeniach sieci Ethernet cz 1.\nAnaliza 2 Detekcja anomalii i wartości odstających w logowanych zdarzeniach sieci Ethernet cz 2. Inne narzędzia IT do szybkiej analizy logów.\nNarzędzia SAS do strumieniowego przetwarzania danych"
+  },
+  {
+    "objectID": "sylabusPL.html#efekty-kształcenia",
+    "href": "sylabusPL.html#efekty-kształcenia",
+    "title": "Syllabus",
+    "section": "Efekty kształcenia",
+    "text": "Efekty kształcenia\n\nWiedza:\n\n\nZna historię i filozofię modeli przetwarzania danych Powiązania: (Analiza danych - Big Data)K2A_W01, (Analiza danych - Big Data)K2A_W03, (OGL)O2_W01, (OGL) O2_W02, (OGL)O2_W04, (OGL)O2_W07 Metody weryfikacji: kolokwium pisemne (pytania otwarte, zadania) Metody dokumentacji: wykaz pytań z kolokwium\nZna typy danych ustrukturyzowanych jak i nieustrukturyzowanych Powiązania: (Analiza danych - Big Data)K2A_W02, (Analiza danych - Big Data)K2A_W04, (OGL)O2_W04, (OGL) O2_W07 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nZna możliwości i obszary zastosowania procesowania danych w czasie rzeczywistym Powiązania: (Analiza danych - Big Data)K2A_W01, (Analiza danych - Big Data)K2A_W02, (OGL)O2_W01, (OGL) O2_W04, (OGL)O2_W08 Metody weryfikacji: egzamin pisemny (pytania otwarte, zadania) Metody dokumentacji: wykaz pytań egzaminacyjnych\nZna teoretyczne aspekty struktury lambda i kappa Powiązania: (Analiza danych - Big Data)K2A_W03, (Analiza danych - Big Data)K2A_W05, (OGL)O2_W04, (OGL) O2_W06, (OGL)O2_W08 Metody weryfikacji: kolokwium pisemne (pytania otwarte, zadania) Metody dokumentacji: wykaz pytań z kolokwium\nUmie wybrać strukturę IT dla danego problemu biznesowego Powiązania: (Analiza danych - Big Data)K2A_W02, (Analiza danych - Big Data)K2A_W03, (OGL)O2_W01, (OGL) O2_W04, (OGL)O2_W06, (OGL)O2_W08 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nRozumie potrzeby biznesowe podejmowania decyzji w bardzo krótkim czasie Powiązania: (Analiza danych - Big Data)K2A_W01, (Analiza danych - Big Data)K2A_W05, (OGL)O2_W01, (OGL) O2_W04, (OGL)O2_W06, (OGL)O2_W08 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\n\n\nUmiejętności:\n\n\nRozróżnia typy danych strukturyzowanych jak i niestrukturyzowanych Powiązania: K2A_U02, K2A_U07, K2A_U10, O2_U02 Metody weryfikacji: test Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUmie przygotować, przetwarzać oraz zachowywać dane generowane w czasie rzeczywistym Powiązania: K2A_U03, K2A_U05, K2A_U09, O2_U02, O2_U04 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nRozumie ograniczenia wynikające z czasu przetwarzania przez urządzenia oraz systemy informatyczne Powiązania: K2A_U01, K2A_U07, K2A_U11, O2_U02 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUmie zastosować i skonstruować system do przetwarzania w czasie rzeczywistym Powiązania: K2A_U05, K2A_U10, O2_U05, O2_U06, O2_U07 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUmie przygotować raportowanie dla systemu przetwarzania w czasie rzeczywistym Powiązania: K2A_U02, K2A_U08, K2A_U10, O2_U06, O2_U07 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\n\n\nKompetencje:\n\n\nFormułuje problem analityczny wraz z jego informatycznym rozwiązaniem Powiązania: K2A_K01, K2A_K03, O2_K02, O2_K06, O2_K07 Metody weryfikacji: projekt, prezentacja Metody dokumentacji: prace pisemne studenta (w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUtrwala umiejętność samodzielnego uzupełniania wiedzy teoretycznej jak i praktycznej w zakresie programowania, modelowania, nowych technologii informatycznych z wykorzystaniem analizy w czasie rzeczywistym. Powiązania: K2A_K02, K2A_K04, (OGL)O2_K01, (OGL) O2_K02, (OGL)O2_K05, (OGL)O2_K06 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)"
+  },
+  {
+    "objectID": "sylabusPL.html#realizacja-przedmiotu",
+    "href": "sylabusPL.html#realizacja-przedmiotu",
+    "title": "Syllabus",
+    "section": "Realizacja przedmiotu",
+    "text": "Realizacja przedmiotu\n\negzamin testowy 30%\nkolokwium 30%\nreferaty/eseje 40%"
+  },
+  {
+    "objectID": "sylabusPL.html#literatura",
+    "href": "sylabusPL.html#literatura",
+    "title": "Syllabus",
+    "section": "Literatura",
+    "text": "Literatura\n\nZając S., red. “Modelowanie dla biznesu, Analityka w czasie rzeczywistym - narzędzia informatyczne i biznesowe”, Oficyna Wydawnicza SGH, Warszawa 2022\nFrątczak E., red. “Modelowanie dla biznesu, Regresja logistyczna, Regresja Poissona, Survival Data Mining, CRM, Credit Scoring”. SGH, Warszawa 2019.\nFrątczak E., red., “Zaawansowane metody analiz statystycznych”, Oficyna Wydawnicza SGH, Warszawa 2012.\nBellemare A., “Mikrousługi oparte na zdarzeniach. Wykorzystanie danych w organizacji na dużą skalę”, O’Reilly 2021\nLakshmanan V., Robinson S., Munn M., “Wzorce projektowe uczenia maszynowego. Rozwiązania typowych problemów dotyczących przygotowania danych, konstruowania modeli i MLOps”, O’Reilly 2021\nShapira G., Palino T., Sivaram R., Petty K., “Kafka the definitive guide. Real-time data and stream processing at scale” O’Reilly 2022\nGift N., Deza A., “Practical MLOps. Operationalizing Machine Learning Models”, O’Reilly 2022."
+  },
+  {
+    "objectID": "sylabusPL.html#literatura-uzupełniająca",
+    "href": "sylabusPL.html#literatura-uzupełniająca",
+    "title": "Syllabus",
+    "section": "Literatura uzupełniająca",
+    "text": "Literatura uzupełniająca\n\nFrątczak E., “Statistics for Management & Economics” SGH, Warszawa, 2015\nSimon P., “Too Big to IGNORE. The Business Case for Big Data”, John Wiley & Sons Inc., 2013\nNandi A. “Spark for Python Developers”, 2015\nFrank J. Ohlhorst. “Big Data Analytics. Turning Big Data into Big Money”. John Wiley & Sons. Inc. 2013\nRussell J. “Zwinna analiza danych Apache Hadoop dla każdego”, Helion, 2014\nTodman C., “Projektowanie hurtowni danych, Wspomaganie zarządzania relacjami z klientami”, Helion, 2011"
+  },
+  {
+    "objectID": "indexEN.html",
+    "href": "indexEN.html",
+    "title": "Main info",
+    "section": "",
+    "text": "Kod: 222891-D\nSemester winter 2022/2023, SGH Warsaw School of Economics\nSzczegółowy opis znajdziesz w sylabusie. Znajdziesz w nim opis wszystkich wykładów i ćwiczeń oraz proponowaną literaturę.\nInne książki zamieszczone zostały w zakładce książki"
+  },
+  {
+    "objectID": "indexEN.html#kalendarz",
+    "href": "indexEN.html#kalendarz",
+    "title": "Main info",
+    "section": "Kalendarz",
+    "text": "Kalendarz\n\n25-02-2023 (sobota) 08:00-09:30 - Wykład 1\n11-03-2023 (sobota) 08:00-09:30 - Wykład 2\n20-03-2022 (poniedziałek) 08:00-13:30 - Cwiczenia 1, 3 grupy\n\n…\n\nMiejsce\nWykłady 1-5: G-Aula I Laboratorium 1-9: C-4D\n\n\nZaliczenie i Egzamin\nOd pierwszych zajęc studenci organizują grupy projektowe (max. 5 osób) do realizacji projektu w ramach przedmiotu.\nTutaj dodać dokładniejszy opis…"
+  },
+  {
+    "objectID": "indexEN.html#technologie",
+    "href": "indexEN.html#technologie",
+    "title": "Main info",
+    "section": "Technologie",
+    "text": "Technologie\n\nGIT\nPython, Jupyter notebook, Jupyter lab, Colab\nDocker\nApache Spark, Apache Flink, Apache Kafka, Apache Beam\nDatabricks Community edition Web page."
+  },
+  {
+    "objectID": "sylabusEN.html",
+    "href": "sylabusEN.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Nazwa przedmiotu: Analiza danych w czasie rzeczywistym\nJednostka: SGH w Warszawie\nKod przedmiotu: 222890-D, 222890-S\nPunkty ECTS: 3\nJęzyk prowadzenia: polski\nPoziom przedmiotu: średnio-zaawansowany\nProwadzący: Sebastian Zając, sebastian.zajac@sgh.waw.pl\nWebsite: https://sebkaz-teaching.github.io/RTA_2023/"
+  },
+  {
+    "objectID": "sylabusEN.html#cel-przedmiotu",
+    "href": "sylabusEN.html#cel-przedmiotu",
+    "title": "Syllabus",
+    "section": "Cel Przedmiotu",
+    "text": "Cel Przedmiotu\nPodejmowanie prawidłowych decyzji na podstawie danych i ich analiz w biznesie to proces i codzienność. Nowoczesne metody modelowania przez uczenie maszynowe (ang. machine learning), sztuczną inteligencję (AI), bądź głębokie sieci neuronowe (ang. deep learning) pozwalają nie tylko na lepsze rozumienie biznesu, ale i wspomagają podejmowanie kluczowych dla niego decyzji. Rozwój technologii oraz coraz to nowsze koncepcje biznesowe pracy bezpośrednio z klientem wymagają nie tylko prawidłowych, ale i odpowiednio szybkich decyzji. Oferowane zajęcia mają na celu przekazanie studentom doświadczenia oraz kompleksowej wiedzy teoretycznej w zakresie przetwarzania i analizy danych w czasie rzeczywistym oraz zaprezentowanie najnowszych technologii informatycznych (darmowych oraz komercyjnych) służących do przetwarzania danych ustrukturyzowanych (pochodzących np. z hurtowni danych) jak i nieustrukturyzowanych (np. obrazy, dźwięk, strumieniowanie video) w trybie on-line. W toku zajęć przedstawiona zatem zostanie filozofia analizy dużych danych w czasie rzeczywistym jako część koncepcji Big Data w połączeniu ze strumieniowaniem danych, programowaniem strumieniowym w języku Python, R oraz SAS. Zostanie przedstawiona tzw. struktury lambda oraz kappa służące do przetwarzania danych w data lake wraz z omówieniem problemów i trudności jakie spotyka się w realizacji modelowania w czasie rzeczywistym dla dużej ilości danych. Wiedza teoretyczna zdobywana będzie (oprócz części wykładowej) poprzez realizację przypadków testowych w narzędziach takich jak Apache Spark, Nifi, Microsoft Azure, czy SAS. Na zajęciach laboratoryjnych studenci korzystać będą z pełni skonfigurowanych środowisk programistycznych przygotowanych do przetwarzania, modelowania i analizy danych. Tak aby oprócz umiejętności i znajomości technik analitycznych studenci poznali i zrozumieli najnowsze technologie informatyczne związane z przetwarzaniem danych w czasie rzeczywistym."
+  },
+  {
+    "objectID": "sylabusEN.html#program-przedmiotu",
+    "href": "sylabusEN.html#program-przedmiotu",
+    "title": "Syllabus",
+    "section": "Program przedmiotu",
+    "text": "Program przedmiotu\n\nModelowanie, uczenie i predykcja w trybie wsadowym (offline learning) i przyrostowym (online learning). Problemy przyrostowego uczenia maszynowego.\nModele przetwarzania danych w Big Data. Od plików płaskich do Data Lake. Mity i fakty przetwarzania danych w czasie rzeczywistym.\nSystemy NRT (near real-time systems), pozyskiwanie danych, streaming, analityka.\nAlgorytmy estymacji parametrów modelu w trybie przyrostowym. Stochastic Gradient Descent.\nArchitektura Lambda i Kappa. Zaprojektowanie architektury IT dla przetwarzania danych w czasie rzeczywistym.\nPrzygotowanie mikroserwisu z modelem ML do zastosowania produkcyjnego.\nStrukturyzowane i niestrukturyzowane dane. Relacyjne bazy danych i bazy NoSQL\nAgregacje i raportowanie w bazach NoSQL (na przykładzie bazy Cassandra).\nPodstawy obiektowego programowania w Pythonie w analizie regresji liniowej, logistycznej oraz sieci neuronowych z wykorzystaniem biblioteki sklearn, TensorFLow i Keras\nArchitektura IT przetwarzania Big Data. Przygotowanie wirtualnego środowiska dla Sparka. Pierwszy program w PySpark. Wykorzystanie przygotowanego środowiska do analizy danych z serwisu Twitter.\nAnaliza 1 Detekcja wyłudzeń w zgłoszeniach szkód samochodowych w czasie rzeczywistym z wykorzystaniem przygotowanego, darmowego środowiska. Cz 1.\nAnaliza 1 Detekcja wyłudzeń w zgłoszeniach szkód samochodowych w czasie rzeczywistym z wykorzystaniem przygotowanego, darmowego środowiska. Cz 2.\nPrzygotowanie środowiska Microsoft Azure. Detekcja anomalii i wartości odstających w logowanych zdarzeniach sieci Ethernet cz 1.\nAnaliza 2 Detekcja anomalii i wartości odstających w logowanych zdarzeniach sieci Ethernet cz 2. Inne narzędzia IT do szybkiej analizy logów.\nNarzędzia SAS do strumieniowego przetwarzania danych"
+  },
+  {
+    "objectID": "sylabusEN.html#efekty-kształcenia",
+    "href": "sylabusEN.html#efekty-kształcenia",
+    "title": "Syllabus",
+    "section": "Efekty kształcenia",
+    "text": "Efekty kształcenia\n\nWiedza:\n\n\nZna historię i filozofię modeli przetwarzania danych Powiązania: (Analiza danych - Big Data)K2A_W01, (Analiza danych - Big Data)K2A_W03, (OGL)O2_W01, (OGL) O2_W02, (OGL)O2_W04, (OGL)O2_W07 Metody weryfikacji: kolokwium pisemne (pytania otwarte, zadania) Metody dokumentacji: wykaz pytań z kolokwium\nZna typy danych ustrukturyzowanych jak i nieustrukturyzowanych Powiązania: (Analiza danych - Big Data)K2A_W02, (Analiza danych - Big Data)K2A_W04, (OGL)O2_W04, (OGL) O2_W07 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nZna możliwości i obszary zastosowania procesowania danych w czasie rzeczywistym Powiązania: (Analiza danych - Big Data)K2A_W01, (Analiza danych - Big Data)K2A_W02, (OGL)O2_W01, (OGL) O2_W04, (OGL)O2_W08 Metody weryfikacji: egzamin pisemny (pytania otwarte, zadania) Metody dokumentacji: wykaz pytań egzaminacyjnych\nZna teoretyczne aspekty struktury lambda i kappa Powiązania: (Analiza danych - Big Data)K2A_W03, (Analiza danych - Big Data)K2A_W05, (OGL)O2_W04, (OGL) O2_W06, (OGL)O2_W08 Metody weryfikacji: kolokwium pisemne (pytania otwarte, zadania) Metody dokumentacji: wykaz pytań z kolokwium\nUmie wybrać strukturę IT dla danego problemu biznesowego Powiązania: (Analiza danych - Big Data)K2A_W02, (Analiza danych - Big Data)K2A_W03, (OGL)O2_W01, (OGL) O2_W04, (OGL)O2_W06, (OGL)O2_W08 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nRozumie potrzeby biznesowe podejmowania decyzji w bardzo krótkim czasie Powiązania: (Analiza danych - Big Data)K2A_W01, (Analiza danych - Big Data)K2A_W05, (OGL)O2_W01, (OGL) O2_W04, (OGL)O2_W06, (OGL)O2_W08 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\n\n\nUmiejętności:\n\n\nRozróżnia typy danych strukturyzowanych jak i niestrukturyzowanych Powiązania: K2A_U02, K2A_U07, K2A_U10, O2_U02 Metody weryfikacji: test Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUmie przygotować, przetwarzać oraz zachowywać dane generowane w czasie rzeczywistym Powiązania: K2A_U03, K2A_U05, K2A_U09, O2_U02, O2_U04 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nRozumie ograniczenia wynikające z czasu przetwarzania przez urządzenia oraz systemy informatyczne Powiązania: K2A_U01, K2A_U07, K2A_U11, O2_U02 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUmie zastosować i skonstruować system do przetwarzania w czasie rzeczywistym Powiązania: K2A_U05, K2A_U10, O2_U05, O2_U06, O2_U07 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUmie przygotować raportowanie dla systemu przetwarzania w czasie rzeczywistym Powiązania: K2A_U02, K2A_U08, K2A_U10, O2_U06, O2_U07 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)\n\n\nKompetencje:\n\n\nFormułuje problem analityczny wraz z jego informatycznym rozwiązaniem Powiązania: K2A_K01, K2A_K03, O2_K02, O2_K06, O2_K07 Metody weryfikacji: projekt, prezentacja Metody dokumentacji: prace pisemne studenta (w trakcie semestru, zaliczeniowe, egzaminacyjne)\nUtrwala umiejętność samodzielnego uzupełniania wiedzy teoretycznej jak i praktycznej w zakresie programowania, modelowania, nowych technologii informatycznych z wykorzystaniem analizy w czasie rzeczywistym. Powiązania: K2A_K02, K2A_K04, (OGL)O2_K01, (OGL) O2_K02, (OGL)O2_K05, (OGL)O2_K06 Metody weryfikacji: projekt Metody dokumentacji: prace pisemne studenta ( w trakcie semestru, zaliczeniowe, egzaminacyjne)"
+  },
+  {
+    "objectID": "sylabusEN.html#realizacja-przedmiotu",
+    "href": "sylabusEN.html#realizacja-przedmiotu",
+    "title": "Syllabus",
+    "section": "Realizacja przedmiotu",
+    "text": "Realizacja przedmiotu\n\negzamin testowy 30%\nkolokwium 30%\nreferaty/eseje 40%"
+  },
+  {
+    "objectID": "sylabusEN.html#literatura",
+    "href": "sylabusEN.html#literatura",
+    "title": "Syllabus",
+    "section": "Literatura",
+    "text": "Literatura\n\nZając S., red. “Modelowanie dla biznesu, Analityka w czasie rzeczywistym - narzędzia informatyczne i biznesowe”, Oficyna Wydawnicza SGH, Warszawa 2022\nFrątczak E., red. “Modelowanie dla biznesu, Regresja logistyczna, Regresja Poissona, Survival Data Mining, CRM, Credit Scoring”. SGH, Warszawa 2019.\nFrątczak E., red., “Zaawansowane metody analiz statystycznych”, Oficyna Wydawnicza SGH, Warszawa 2012.\nBellemare A., “Mikrousługi oparte na zdarzeniach. Wykorzystanie danych w organizacji na dużą skalę”, O’Reilly 2021\nLakshmanan V., Robinson S., Munn M., “Wzorce projektowe uczenia maszynowego. Rozwiązania typowych problemów dotyczących przygotowania danych, konstruowania modeli i MLOps”, O’Reilly 2021\nShapira G., Palino T., Sivaram R., Petty K., “Kafka the definitive guide. Real-time data and stream processing at scale” O’Reilly 2022\nGift N., Deza A., “Practical MLOps. Operationalizing Machine Learning Models”, O’Reilly 2022."
+  },
+  {
+    "objectID": "sylabusEN.html#literatura-uzupełniająca",
+    "href": "sylabusEN.html#literatura-uzupełniająca",
+    "title": "Syllabus",
+    "section": "Literatura uzupełniająca",
+    "text": "Literatura uzupełniająca\n\nFrątczak E., “Statistics for Management & Economics” SGH, Warszawa, 2015\nSimon P., “Too Big to IGNORE. The Business Case for Big Data”, John Wiley & Sons Inc., 2013\nNandi A. “Spark for Python Developers”, 2015\nFrank J. Ohlhorst. “Big Data Analytics. Turning Big Data into Big Money”. John Wiley & Sons. Inc. 2013\nRussell J. “Zwinna analiza danych Apache Hadoop dla każdego”, Helion, 2014\nTodman C., “Projektowanie hurtowni danych, Wspomaganie zarządzania relacjami z klientami”, Helion, 2011"
+  },
+  {
+    "objectID": "indexS.html",
+    "href": "indexS.html",
+    "title": "Informacje ogólne",
+    "section": "",
+    "text": "Kod: 222890-S\nSemestr zimowy 2022/2023, SGH Szkoła Główna Handlowa w Warszawie\nSzczegółowy opis znajdziesz w sylabusie. Znajdziesz w nim opis wszystkich wykładów i ćwiczeń oraz proponowaną literaturę.\nInne książki zamieszczone zostały w zakładce książki"
+  },
+  {
+    "objectID": "indexS.html#kalendarz",
+    "href": "indexS.html#kalendarz",
+    "title": "Informacje ogólne",
+    "section": "Kalendarz",
+    "text": "Kalendarz\n\nWykład\n\n25-02-2023 (sobota) 08:00-09:30 - Wykład 1\n11-03-2023 (sobota) 08:00-09:30 - Wykład 2\n\n\n\nćwiczenia\n\n25-03-2022 (sobota) 08:00-15:00 - G116 4 grupy\n26-03-2022 (niedziela) 09:50-17.00 - G116 4 grupy\n15-04-2022 (sobota) 08:00-15:00 - G116 4 grupy\n16-04-2022 (niedziela) 09:50-17.00 - G116 4 grupy\n06-05-2022 (sobota) 08:00-15:00 - G116 4 grupy\n07-05-2022 (niedziela) 09:50-17.00 - G116 4 grupy\n20-05-2022 (sobota) 08:00-15:00 - G116 4 grupy\n21-05-2022 (niedziela) 09:50-17.00 - G116 4 grupy\n10-05-2022 (sobota) 08:00-15:00 - G116 4 grupy\n11-05-2022 (niedziela) 09:50-17.00 - G116 4 grupy\n\n\n\nMiejsce\nWykłady 1-2: G-Aula IV Laboratorium 1-5: 116 G\n\n\nZaliczenie i Egzamin\nWykłady zakończone zostaną testem (ostatnie zajęcia). Pozytywna ocena z testu (powyżej 13 pkt) upoważnia do realizacji ćwiczeń.\nPo ćwiczeniach realizowane będą zadania domowe przekazywane za pośrednictwem platformy teams.\nZaliczenie wszystkich ćwiczeń i zadań upoważnia do realizacji projektu.\nProjekt powinien być realizowany w grupach max 5 osobowych.\nWymagania projektu:\n\nProjekt powinien przedstawiać BIZNESOWY PROBLEM, który można realizować wykorzystując informacje podawane w trybie online. (Nie oznacza to, że nie można korzystać z procesowania batchowego np w celu wygenerowania modelu).\nDane powinny być przesyłane do Apache Kafki i stamtąd poddawane dalszemu procesowaniu i analizie.\nJęzyk programowania jest dowolny - dotyczy każdego komponentu projektu.\nMożna wykorzystać narzędzia BI\nŹródłem danych może być tabela, sztucznie generowane dane, IoT itp."
+  },
+  {
+    "objectID": "indexS.html#technologie",
+    "href": "indexS.html#technologie",
+    "title": "Informacje ogólne",
+    "section": "Technologie",
+    "text": "Technologie\nUczestnicząc w zajęciach musisz opanować i przynajmniej w podstawowym zakresie posługiwać się następującymi technologiami informatycznymi:\n\nGIT\nPython, Jupyter notebook, Jupyter lab, Colab\nDocker\nApache Spark, Apache Flink, Apache Kafka, Apache Beam\nDatabricks Community edition Web page."
+  },
+  {
+    "objectID": "info.html",
+    "href": "info.html",
+    "title": "Narzędzia",
+    "section": "",
+    "text": "W terminalu (Windows CMD) wpisz\npython\nJeśli nie odnaleziono komendy uruchom polecenie:\npython3\nZwróć uwagę, aby Twoja wersja nie była niższa niż 3.X Aby wyjść z powłoki pythona użyj funkcji exit()\nPython 3.10.9 (main, Dec 15 2022, 17:11:09) [Clang 14.0.0 (clang-1400.0.29.202)] on darwin\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n>>> exit()\n\n\npython3 -m venv <name of env>\n\nsource <name of env>/bin/activate\n# . env/bin/activate\n\n(venv)$ \nSzybka instalacja podstawowych bibliotek i jupyterlab.\npip install --no-cache --upgrade pip setuptools\n\npip install jupyterlab numpy pandas matplotlib scipy\n# jeśli masz plik requirements.txt z potrzebnymi bibliotekami\npip install -r requirements.txt\n# uruchom \njupyterlab\nW przeglądarce internetowej wpisz: localhost:8888\nPo ponownym uruchomieniu przejdź do katalogu w którym utworzyłeś środowisko, następnie uruchom środowisko i jupyterlab.\nsource <name of env>/bin/activate\njupyterlab\n\n\n\nUtwórz konto na Kaggle, przejdź do zakładki Courses i przerób cały moduł Pythona. Zawiera on:\n\nwyrażenia i zmienne\nfunkcje\nwarunki i flow programu\nlisty\npętle\nstringi i słowniki\ndodawanie i używanie zewnętrznych bibliotek"
+  },
+  {
+    "objectID": "info.html#zacznij-korzystać-z-dockera",
+    "href": "info.html#zacznij-korzystać-z-dockera",
+    "title": "Narzędzia",
+    "section": "Zacznij korzystać z Dockera",
+    "text": "Zacznij korzystać z Dockera\nW celu pobrania oprogramowania docker na swój system przejdź do strony.\nJeżli wszystko zainstalowało się prawidłowo wykonaj następujące polecenia:\n\nSprawdź zainstalowaną wersję\n\ndocker --version\n\nŚciągnij i uruchom obraz Hello World i\n\ndocker run hello-world\n\nPrzegląd ściągnietych obrazów:\n\ndocker image ls\n\ndocker images\n\nPrzegląd uruchomionych kontenerów:\n\ndocker ps \n\ndocker ps -all\n\nZatrzymanie uruchomionego kontenera:\n\ndocker stop <CONTAINER ID>\n\nUsunięcie kontenera\n\ndocker rm -f <CONTAINER ID>\nPolecam również krótkie intro"
+  },
+  {
+    "objectID": "ksiazki.html#strony-www",
+    "href": "ksiazki.html#strony-www",
+    "title": "Książki i strony WWW",
+    "section": "Strony WWW",
+    "text": "Strony WWW\n\nSoftware\n\nGithub\nGit-instrukcja\nwww.python.org\nPyPI python libraries\nAnaconda\nDocker\n\n\n\nPakiety python dla analiz danych\n\nNumPy\nSciPy\nPandas\nScikit-learn\nJupyter\nMatplotlib\nBeautiful Soup\nTheano\nKeras\nTensorFlow\nVirtual ENV\n\n\n\nEdytory tekstu\n\nNotepad++\nSublime Text\nVisual Studio Code\n\n\n\nMarkdown\n\nMD\n\n\n\nJupyter notebook\n\nGaleria ciekawych notatników\nIntro\nKernels\nBringing the best out of jupyter for data science\nJupyter extensions\nI don’t like notebooks\nJupyter lab\nSpeed up jupyter notebook\n\n\n\nPrzetwarzanie danych\n\ndata cookbook\n\n\n\nZbiory danych\n\nInternet Archive\nReddit\nKDnuggets\nKaggle\nList of datasets for machine learning research\nUCI Machine Learning Repo\nPublic API\nGoogle Datatset Search\n\n\n\nPython\n\nChris Albon Technical Notes on Using Data Science & AI\n40+ Python Statistics For Data Science Resources\nPractical Business Python\n\n\n\nkursy ML\n\nKurs Machine Learning - Andrew Ng, Stanford"
+  },
+  {
+    "objectID": "info.html#zacznij-korzystać-z-serwisu-github",
+    "href": "info.html#zacznij-korzystać-z-serwisu-github",
+    "title": "Narzędzia",
+    "section": "Zacznij korzystać z serwisu GitHub",
+    "text": "Zacznij korzystać z serwisu GitHub\nTekst na podstawie strony jak korzystać z serwisu github\nPracując nad projektem np. praca magisterska, (samodzielnie lub w zespole) często potrzebujesz sprawdzić jakie zmiany, kiedy i przez kogo zostały wprowadzone do projektu. W zadaniu tym świetnie sprawdza się system kontroli wersji czyli GIT.\nGit możesz pobrać i zainstalować jak zwykły program na dowolnym komputerze. Jednak najczęściej (małe projekty) korzysta się z serwisów z jakimś systemem git. Jednym z najbardziej rozpoznawanych jest GitHub dzięki któremu możesz korzystać z systemu git bez jego instalacji na swoim komputerze.\nW darmowej wersji serwisu GitHub swoje pliki możesz przechowywać w publicznych (dostęp mają wszyscy) repozytoriach.\nSkupimy się wyłącznie na darmowej wersji serwisu GitHub.\ngit --version\n\nStruktura GitHuba\nNa najwyższym poziomie znajdują się konta indywidualne (np http://github.com/sebkaz, bądź zakładane przez organizacje. Użytkownicy indywidualni mogą tworzyć repozytoria publiczne (public ) bądź prywatne (private).\nJeden plik nie powinien przekraczać 100 MB.\nRepo (skrót do repozytorium) tworzymy za pomocą Create a new repository. Każde repo powinno mieć swoją indywidualną nazwę.\n\n\nBranche\nGłówna (tworzona domyślnie) gałąź rapozytorium ma nazwę master.\n\n\nNajważniejsze polecnia do zapamiętania\n\nściąganie repozytorium z sieci\n\ngit clone https://adres_repo.git\n\nW przypadku githuba możesz pobrać repozytorium jako plik zip.\n\n\nTworzenie repozytorium dla lokalnego katalogu\n\n# tworzenie nowego katalogu\nmkdir datamining\n# przejście do katalogu\ncd datamining\n# inicjalizacja repozytorium w katalogu\ngit init\n# powinien pojawić się ukryty katalog .git\n# dodajmy plik\necho \"Info \" >> README.md\n\nPołącz lokalne repozytorium z kontem na githubie\n\ngit remote add origin https://github.com/<twojGit>/nazwa.git\n\nObsługa w 3 krokach\n\n# sprawdź zmiany jakie zostały dokonane\ngit status\n# 1. dodaj wszystkie zmiany\ngit add .\n# 2. zapisz bierzący stan wraz z informacją co zrobiłeś\ngit commit -m \" opis \"\n# 3. potem już zostaje tylko\ngit push origin master\nWarto obejrzeć Youtube course."
+  },
+  {
+    "objectID": "wyklad1.html",
+    "href": "wyklad1.html",
+    "title": "Wykład 1",
+    "section": "",
+    "text": "Rozwój technologii informatycznych spowodował dostęp do niewyobrażalnych ilości nowego zasobu jakim są ustrukturyzowane jak i nieustrukturyzowane dane.\nDane przyczyniły się do powstania tysięcy nowych narzędzi do generowania, zbierania, przechowywania i przetwarzania informacji na niespotykaną dotąd skalę.\nZasób ten nie jest nowością i dostępny jest od bardzo dawna. Jednak dopiero po wprowadzeniu systemu pisma można było zacząć prowadzić zapis i przetwarzanie w postaci rachunkowości czy rejestrów różnych rzeczy takich jak: zaludnienie w krajach, spisy rzek, jezior, najgłębsze miejsca itp.\nPojawienie się nowych wyzwań naukowych czy biznesowych staje się możliwe do realizacji dzięki budowie systemów opartych na otwartym oprogramowaniu, jak również dzięki wykorzystaniu domowych komputerów do wspomagania przetwarzania ogromnych ilości danych.\nNowe wyzwania to między innymi:\n\ninteligentna reklama tysięcy produktów dla milionów klientów,\nprzetwarzanie danych o genach, RNA czy też białkach genus,\ninteligentne wykrywanie różnorodnych sposobów nadużyć wśród setek miliardów transakcji kart kredytowych,\nsymulacje giełdowe oparte o tysiące instrumentów finansowych\n…\n\nEpoka danych stawia przed nami coraz to nowsze wyzwania związane nie tylko z ilością, ale i z czasem przetwarzania danych.\nWszystkie algorytmy uczenia maszynowego wymagają danych ustrukturyzowanych zapisanych w~tabelarycznej postaci.\nZorganizowane są one w~kolumnach cech charakteryzujących każdą obserwację (wiersze). Przykładem mogą być takie cechy jak: płeć, wzrost czy ilość posiadanych samochodów, na podstawie których można przewidywać czy klient będzie spłacał kredyt czy też nie. Takie przewidywanie również oznaczane jest jako cecha. Zmienne te dobierane są tak, by łatwo można je było pozyskać. Dzięki tak otrzymanym tabelom cech możemy stosować algorytmy XGBoost lub regresji logistycznej w celu wyznaczenia odpowiedniej kombinacji zmiennych wpływających na prawdopodobieństwo dobrego albo i złego klienta.\nDane nieustrukturyzowane to takie, które nie są ułożone w~tabelarycznej postaci. Przykładem może być dźwięk, obraz czy tekst. W~procesie przetwarzania zawsze przetworzone zostają one na jakąś formę wektorową. Jednak poszczególne litery, częstotliwości~czy piksele nie niosą ze sobą żadnych informacji. Nie tworzą osobnych cech, co jest kluczowe dla odróżnienia ich od danych ustrukturyzowanych.\n\nPodaj przykład danych ustrukturyzowanych i nieustrukturyzowanych. Załaduj przykładowe dane w jupyter notebooku.\n\n\nZna typy danych ustrukturyzowanych jak i nieustrukturyzowanych (K2A_W02, K2A_W04, O2_W04, O2_W07)"
+  },
+  {
+    "objectID": "wyklad1.html#źródła-danych",
+    "href": "wyklad1.html#źródła-danych",
+    "title": "Wykład 1",
+    "section": "Źródła danych",
+    "text": "Źródła danych\nPrzepływ Big Data\n\nDziałalność przedsiębiorstw i instytucji (banki, ubezpieczalnie, sieci handlowe, urzędy …).\n\nDo trzech największych ,,generatorów’’ danych należą:\n\ndane społeczne w formie tekstów (tweety, wpisy w~portalach społecznościowych, komentarze), zdjęć czy plików wideo. Dane te są bardzo istotne ze względu na ich szerokie możliwości analizy pod względem zachowań i nastrojów konsumentów w analizach marketingowych.\ndane pochodzące ze wszelkiego rodzaju czujników czy też logi działania urządzeń i~użytkowników (np. na stronie www). Dane te związane są z~technologią IoT (\nDane transakcyjne czyli ogólnie to co w~każdej chwili generowane jest jako transakcje pojawiające się zarówno w~trybie online jak iwtrybie offline. Aktualnie ten typ danych przetwarzany jest w~celu, nie tylko wykonywania transakcji, ale również i~bogatej analityki wspomagającej praktycznie każdą dziedzinę życia codziennego."
+  },
+  {
+    "objectID": "wyklad1.html#rzeczywisty-proces-generowania-danych",
+    "href": "wyklad1.html#rzeczywisty-proces-generowania-danych",
+    "title": "Wykład 1",
+    "section": "Rzeczywisty proces generowania danych",
+    "text": "Rzeczywisty proces generowania danych\nDane generowane są w postaci nieograniczonej - pojawiają się na skutek ciągłych działań systemów. W swoim telefonie wygenerowałeś dziś (a nawet na tych zajęciach !) wiele danych. Czy na następnych zajęciach lub tez jutro nie będziesz ich generował ? Przetwarzanie wsadowe dzieli dane na porcje o stałej długości czasu i uruchamia procesy przetwarzania w określonym przez uzytkownika czasie. Jednak znacznik czasowy nie zawsze jest istotny.\nZ wieloma systemami, które obsługują strumienie danych miałeś już do czynienia. Są to np: - hurtownie danych - systemy monitorujące działania urządzeń (IoT) - systemy transakcyjne - systemy analityczne stron www - reklamy on-line - media społecznościowe - systemy logowania - ….\n\nfirma to organizacja, która generuje i odpowiada na ciągły strumień danych.\n\nW przetwarzaniu wsadowym źródłem (ale i~wynikiem przetwarzania) danych jest plik. Jest on zapisywany raz i~można się do niego odwołać (może na nim działać wiele procesów - zadań). Nazwa pliku to element identyfikujący zbiór rekordów.\nW~przypadku strumienia zdarzenie jest generowane tylko raz przez tzw. producenta (zwanego też nadawcą lub dostawcą). Powstałe zdarzenie przetwarzane może być przez wielu tzw. konsumentów (odbiorców). Zdarzenia strumieniowe grupowane są w~tzw. temat (ang. topic)."
+  },
+  {
+    "objectID": "wyklad1.html#not-to-big-data",
+    "href": "wyklad1.html#not-to-big-data",
+    "title": "Wykład 1",
+    "section": "not to Big Data",
+    "text": "not to Big Data\n\n,,Big Data is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so every one claims they are doing it.’’ — Dan Ariely, Professor of Psychology and Behavioral Economics, Duke University\n\n\none, two, … four V\n\nVolume - Objętość - rozmiar danych produkowanych na całym świecie przyrasta w tempie wykładniczym. Huge amounts of data are being genereted every second - the email you send, Twitter, Facebook, or other social media, videos, pictures, SMS messages, call records and data from varied devices and sensors.\nVelocity - Szybkość - tempo produkowania danych, szybkości ich przesyłania i przetwarzania.\nVariety - Zróżnicowanie - tradycyjne dane kojarzą się nam z postacią alfanumeryczną złożoną z liter i cyfr. Obecnie mamy do dyspozycji obrazy, dźwięki, pliki wideo, strumienie danych z IoT\nVeracity - Wiarygodność - Czy dane są kompletne i poprawne ? Czy obiektywnie odzwierciedlają rzeczywistość ? Czy są podstawą do podejmowania decyzji ?\nValue - The value that the data actually holds. In the end, it’s all about cost and benefits.\n\n\nCelem obliczeń nie są liczby, lecz ich zrozumienie R.W. Hamming 1962."
+  },
+  {
+    "objectID": "wyklad1.html#modele-przetwarzania-danych",
+    "href": "wyklad1.html#modele-przetwarzania-danych",
+    "title": "Wykład 1",
+    "section": "Modele przetwarzania danych",
+    "text": "Modele przetwarzania danych\nDane w biznesie przetwarzane są praktycznie od zawsze. W ciągu ostatnich dziesięcioleci ilość przetwarzanych danych systematycznie rośnie co wpływa na proces przygotowania i przetwarzania danych.\n\nTrochę historii\n\nLata 60-te : Kolekcje danych, bazy danych\nLata 70-te : Relacyjne modele danych i ich implementacja w systemach OLTP\n1975 : Pierwsze komputery osobiste\nLata 80-te : Zaawansowane modele danych, extended-relational, objective oriented, aplikacyjno-zorientowane itp.\n1983 : Początek internetu\nLata 90-te : Data mining, hurtownie danych, systemy OLAP\nPóźniej : NoSQL, Hadoop, SPARK, data lake\n2002 : AWS , 2005: Hadoop, Cloud computing\n\n\nZna historię i filozofię modeli przetwarzania danych.\n\nWiększość danych przechowywana jest w bazach lub hurtowniach danych. Standardowo dostęp do danych sprowadza się najczęściej do realizacji zapytań poprzez aplikację. Sposób wykorzystania i realizacji procesu dostępu do bazy danych nazywamy modelem przetwarzania. Najczęściej używane są dwie implementacje:\n\n\nModel Tradycyjny\nModel tradycyjny - przetwarzanie transakcyjne w trybie on-line, OLTP (on-line transaction processing). Świetnie sprawdza się w przypadku obsługi bieżącej np. obsługa klienta, rejestr zamówień, obsługa sprzedaży itp. Wykorzystywany w systemach Enterprise Resource Planning (ERP) Systems, Customer Relationship Management (CRM) software, and web-based applications.\nModel ten dostarcza efektywnych rozwiązań do:\n\nefektywne i bezpieczne przechowywanie danych,\ntransakcyjne odtwarzanie danych po awarii,\noptymalizacja dostępu do danych,\nzarządzanie współbieżnością,\nprzetwarzanie zdarzeń -> odczyt -> zapis\n\nAktualnie wiele działających aplikacji (nawet w jednym obszarze) realizuje się jako mikroserwisy, czyli małe i niezależne aplikacje (filozofia programowania LINUX - rób mało ale dobrze).\nA co w przypadku gdy mamy do czynienia z:\n\nagregacjami danych z wielu systemów (np. dla wielu sklepów),\nwspomaganie analizy danych,\nraportowanie i podsumowania danych,\noptymalizacja złożonych zapytań,\nwspomaganie decyzji biznesowych.\n\nBadania nad tego typu zagadnieniami doprowadziły do sformułowania nowego modelu przetwarzania danych oraz nowego typu baz danych - Hurtownie Danych (Data warehouse).\n\n\nModel OLAP\nPrzetwarzanie analityczne on-line OLAP (on-line analytic processing).\nWspieranie procesów analizy i dostarczanie narzędzi umożliwiających analizę wielowymiarową (czas, miejsce, produkt).\nProces zrzucania danych z różnych systemów do jednej bazy nazywamy Extract-Transform-Load (ETL) (normalizacja i encoding and schema transaction).\nAnaliza danych z hurtowni to przede wszystkim obliczanie agregatów (podsumowań) dotyczących wymiarów hurtowni. Proces ten jest całkowicie sterowany przez użytkownika.\nPrzykład\nZałóżmy, że mamy dostęp do hurtowni danych gdzie przechowywane są informacje dotyczące sprzedaży produktów w supermarkecie. Jak przeanalizować zapytania:\n\nJaka jest łączna sprzedaż produktów w kolejnych kwartałach, miesiącach, tygodniach ?\nJaka jest sprzedaż produktów z podziałem na rodzaje produktów ?\nJaka jest sprzedaż produktów z podziałem na oddziały supermarketu ?\n\nOdpowiedzi na te pytania pozwalają określić wąskie gardła sprzedaży produktów przynoszących deficyt, zaplanować zapasy w magazynach czy porównać sprzedaż różnych grup w różnych oddziałach supermarketu.\nW ramach Hurtowni Danych najczęściej wykonuje się dwa rodzaje zapytań: 1. Wykonywane okresowo w czasie zapytania raportowe obliczające biznesowe statystyki 2. Wykonywane ad-hoc zapytania wspomagające krytyczne decyzje biznesowe.\nOba wykonywane w trybie batchowym. Dziś ściśle wykonywane z użyciem technologii Hadoop."
+  }
+]
