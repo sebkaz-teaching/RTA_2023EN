@@ -4,12 +4,12 @@ title: Tools
 
 ## Python
 
-W terminalu (Windows CMD) wpisz
-```{bash}
+In terminal (Windows CMD) check
+```bash
 python
 ```
-Jeśli nie odnaleziono komendy uruchom polecenie:
-```{bash}
+You can also check:
+```bash
 python3
 ```
 

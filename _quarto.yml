@@ -8,19 +8,25 @@ website:
     left: 
           - href: index.qmd
             text: Home
-          - href: wyklad1.qmd
+          - href: lecture1.qmd
             text: Lecture 1
+          - href: lecture2.qmd
+            text: Lecture 2
           - href: sylabus.qmd
-            text: Sylabus
+            text: Syllabus
           - href: info.qmd
             text: Tools
-          - href: ksiazki.qmd
+          - href: books.qmd
             text: Books
           
 
 format:
   html:
-    theme: cosmo
+    light: cosmo
     css: style.css
     toc: true
+    toc-depth: 2
     self-contained-math: true
+    html-math-method:
+      method: mathjax
+      url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"

@@ -10,9 +10,9 @@ Winter semester 2022/2023,
 SGH Warsaw School of Economics
 
 
-Basics information about this course can be found in the [sylabus](/sylabus).
+Basics information about this course can be found in the [syllabus](/sylabus).
 
-List of [books](/ksiazki)! I recommend.
+List of [books](/books)! I recommend.
 
 If You don't know what Python is go [here](/info).
 
@@ -23,10 +23,11 @@ If You don't know what Python is go [here](/info).
 The lecture is carried out in hybrid mode.
 It is OPTIONAL and takes place in Aula I building G
 
-1. 20-02-2023 (monday) 08:00-9:30 - Lecture 1
-2. 27-02-2023 (monday) 08:00-9:30 - Lecture 2
-3. 06-03-2023 (monday) 08:00-9:30 - Lecture 3
-4. 13-03-2023 (monday) 08:00-9:30 - Lecture 4
+1. <del>20-02-2023 (Monday) 08:00-9:30 - Lecture 1</del>
+Structured and unstructured data, OLAP and OLTP data processing model.
+2. 27-02-2023 (Monday) 08:00-9:30 - Lecture 2
+3. 06-03-2023 (Monday) 08:00-9:30 - Lecture 3
+4. 13-03-2023 (Monday) 08:00-9:30 - Lecture 4
 
 Lectures end with a TEST: 10 questions - 20 minutes.
 The test is conducted via MS Teams.
@@ -54,18 +55,18 @@ Labs 1-10: C-4D
 Lectures will end with a test (last class).
 Positive evaluation of the test (above 13 points) entitles you to carry out the exercises.
 
-After the exercises, homework will be carried out via the teams platform.
+After the exercises, homework will be carried out via the MS teams' platform.
 Passing all exercises and tasks entitles you to complete the project.
 
 The project should be carried out in groups of no more than 5 people.
 
 Project requirements:
 
-- The project should present a BUSINESS PROBLEM that can be implemented using information provided online. (This does not mean that you cannot use batch processing, e.g. to generate a model).
+- The project should present a BUSINESS PROBLEM that can be implemented using the information provided online. (This does not mean that you cannot use batch processing, e.g. to generate a model).
 - Data should be sent to Apache Kafka and further processed and analyzed from there.
 - The programming language is free - applies to each component of the project.
 - BI tools can be used
-- Data source can be table, artificially generated data, IoT, etc.
+- Data sources can be a table, artificially generated data, IoT, etc.
 
 ## Technology
 
