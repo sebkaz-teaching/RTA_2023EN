@@ -15,7 +15,9 @@ The development of information technology has resulted in access to unimaginable
 
 Data has contributed to the development of thousands of new tools for `generating`, `collecting`, `storing` and `processing` information on an unprecedented scale.
 
-<img alt="data" src="/_files/images/main.jpeg"/>
+<!-- <img alt="data" src="/_files/images/main.jpeg"/> -->
+![](_files/images/main.jpeg){.center}
+
 
 The emergence of new scientific or business challenges becomes possible thanks to the construction of systems based on `open software`, and the use of home computers to support the processing of huge amounts of data.
 
@@ -46,7 +48,6 @@ They do not create separate features, which is crucial to distinguish them from 
 
 
 ## Data sources
-
 
 The three largest data `generators` are:
 
@@ -115,13 +116,13 @@ Two implementations are most commonly used:
 
 ### Traditional Model
 
-
 **Traditional model** - on-line transaction processing, OLTP (on-line transaction processing).
 It works great in the case of ongoing service, e.g. customer service, order register, sales service, etc.
 Companies use all kinds of applications for their day-to-day business activities, such as Enterprise Resource Planning (ERP) Systems, Customer Relationship Management (CRM) software, and web-based applications.
 These systems are typically designed with separate tiers for data processing and data storage (transactional database system).
 
-<img alt="OLTP system" src="/_files/images/baza1.png" align="center" />
+<!-- <img alt="OLTP system" src="/_files/images/baza1.png" align="center" /> -->
+![](_files/images/baza1.png){.center}
 
 Applications are usually connected to external services or face human users and continuously process incoming events such as orders, emails, or clicks on a website.
 
@@ -176,4 +177,7 @@ Because microservices are strictly decoupled from each other and only communicat
 Both are performed in batch mode. 
 Today they are strictly made using Hadoop technology.
 
-<img alt="OLAP system" src="_files/images/baza2.png" align="center" />
+<!-- <img alt="OLAP system" src="_files/images/baza2.png"/> -->
+
+
+![](_files/images/baza2.png){.center}

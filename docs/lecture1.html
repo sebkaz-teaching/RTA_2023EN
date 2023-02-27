@@ -152,7 +152,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="data---small-data--">Data -&gt; Small Data -&gt; …</h2>
 <p>The development of information technology has resulted in access to unimaginable amounts of a new resources which are <strong>structured</strong> and <strong>unstructured</strong> data.</p>
 <p>Data has contributed to the development of thousands of new tools for <code>generating</code>, <code>collecting</code>, <code>storing</code> and <code>processing</code> information on an unprecedented scale.</p>
-<p><img alt="data" src="./_files/images/main.jpeg"></p>
+<!-- <img alt="data" src="/_files/images/main.jpeg"/> -->
+<p><img src="_files/images/main.jpeg" class="center img-fluid"></p>
 <p>The emergence of new scientific or business challenges becomes possible thanks to the construction of systems based on <code>open software</code>, and the use of home computers to support the processing of huge amounts of data.</p>
 <p>The new kind of business and scientific challenges include:</p>
 <ul>
@@ -217,7 +218,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="traditional-model" class="level3">
 <h3 class="anchored" data-anchor-id="traditional-model">Traditional Model</h3>
 <p><strong>Traditional model</strong> - on-line transaction processing, OLTP (on-line transaction processing). It works great in the case of ongoing service, e.g.&nbsp;customer service, order register, sales service, etc. Companies use all kinds of applications for their day-to-day business activities, such as Enterprise Resource Planning (ERP) Systems, Customer Relationship Management (CRM) software, and web-based applications. These systems are typically designed with separate tiers for data processing and data storage (transactional database system).</p>
-<p><img alt="OLTP system" src="./_files/images/baza1.png" align="center"></p>
+<!-- <img alt="OLTP system" src="/_files/images/baza1.png" align="center" /> -->
+<p><img src="_files/images/baza1.png" class="center img-fluid"></p>
 <p>Applications are usually connected to external services or face human users and continuously process incoming events such as orders, emails, or clicks on a website.</p>
 <p>When <strong>an event</strong> is processed, an application reads its state or updates it by running transactions against the remote database system. Often, a database system serves multiple applications that sometimes access the same databases or tables.</p>
 <p>This model provides effective solutions for:</p>
@@ -257,7 +259,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Research on such issues has led to the formulation of a new data processing model and a new type of database <em>(Data warehouse)</em>.</p>
 <p>This application design can cause problems when applications need to evolve or scale. Since multiple applications might work on the same data representation or share the same infrastructure, changing the schema of a table or scaling a database system requires careful planning and a lot of effort. Currently, many running applications (even in one area) are implemented as microservices, i.e.&nbsp;small and independent applications (LINUX programming philosophy - do little but right). Because microservices are strictly decoupled from each other and only communicate over well-defined interfaces, each microservice can be implemented with a different technology stack including a programming language, libraries and data stores.</p>
 <p>Both are performed in batch mode. Today they are strictly made using Hadoop technology.</p>
-<p><img alt="OLAP system" src="_files/images/baza2.png" align="center"></p>
+<!-- <img alt="OLAP system" src="_files/images/baza2.png"/> -->
+<p><img src="_files/images/baza2.png" class="center img-fluid"></p>
 
 
 </section>

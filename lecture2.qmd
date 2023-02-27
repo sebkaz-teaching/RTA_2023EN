@@ -7,14 +7,14 @@ title: "Lecture 2 - Time to Stream"
 
 Expectations vs Reality
 
-<img alt="Batch Processing" src="_files/images/batch00.png" align="center" />
-
+<!-- <img alt="Batch Processing" src="_files/images/batch00.png" align="center" /> -->
+![](_files/images/batch00.png){.center}
 
 When to take a business decision? 
 
 
-<img alt="Batch Processing" src="_files/images/batch0.png" align="center" />
-
+<!-- <img alt="Batch Processing" src="_files/images/batch0.png" align="center" /> -->
+![](_files/images/batch0.png){.center}
 
 ### Data Processing Types
 
