@@ -61,5 +61,96 @@
     "title": "Lecture 2 - Time to Stream",
     "section": "Hadoop Map-Reduce",
     "text": "Hadoop Map-Reduce\n\n\nFind a simple map-reduce algorithm in any programming language and run it.\n\n\nHow to improve?\n\nAPACHE SPARK"
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books and WWW pages",
+    "section": "",
+    "text": "G. Maas, F. Garillot Stream Processing with Apache Spark Zobacz opis lub Kup e-book\nF. Hueske, V. Kalavri Stream Processing with Apache Flink Zobacz opis lub Kup e-book\n\n\n\n\n\nW. McKinney Python w analizie danych. Przetwarzanie danych za pomocą pakietów Pandas i NumPy oraz środowiska IPython. Wydanie II Zobacz opis lub Kup książkę, Kup e-book\nD. McIlwraith, H. Marmanis, D. Babenko Inteligentna sieć. Algorytmy przyszłości. Wydanie II (ebook) Zobacz opis lub Kup książkę, Kup e-book\nJoel Grus Data science od podstaw. Analiza danych w Pythonie. Wydanie II. Zobacz opis lub Kup książkę, Kup e-book.\nJohn W. Foreman Mistrz analizy danych. Od danych do wiedzy. Zobacz opis lub Kup książkę, Kup e-book.\nA. Geron Uczenie maszynowe z użyciem Scikit-Learn i TensorFlow. Wydanie II. Zobacz opis lub Kup książkę, Kup e-book.\nAlberto Boschetti, Luca Massaron Python. Podstawy nauki o danych. Zobacz opis lub Kup książkę.\nSebastian Raschka Python. Uczenie maszynowe. Wydanie II. Zobacz opis lub Kup książkę.\nR. Schutt, C. O’Neil Badanie danych. Raport z pierwszej lini działań. Zobacz opis lub Kup książkę.\nT. Segaran Nowe usługi 2.0. Przewodnik po analizie zbiorów danych Zobacz opis lub Kup książkę, Kup e-book\nT. Morzy Eksploracja Danych. Metody i algorytmy, PWN, 2013.\nKrzyśko, Wołyński, Górecki, Skorzybut, Systemy uczące się . WNT, 2008\n\n\n\n\n\nF. Chollet Deep Learning. Praca z językiem Python i biblioteką Keras. Zobacz opis lub Kup książkę, Kup e-book\nJ. Patterson, A. Gibson Deep Learning. Praktyczne wprowadzenie (ebook) Zobacz opis lub Kup e-book\nV. Zocca, G. Spacagna, D. Slater, P. Roelants. Deep Learning. Uczenie głębokie z językiem Python. Sztuczna inteligencja i sieci neuronowe Zobacz opis lub Kup ebook\nD. Osinga Deep Learning. Receptury Zobacz opis lub Kup książkę, Kup e-book\nS. Weidman Uczenie głębokie od zera. Podstawy implementacji w Pythonie Zobacz opis lub Kup książkę, Kup e-book\nD. Foster Deep learning i modelowanie generatywne. Jak nauczyć komputer malowania, pisania, komponowania i grania Zobacz opis lub Kup książkę, Kup e-book\nJ. Howard, S. Gugger Deep learning dla programistów. Budowanie aplikacji AI za pomocą fastai i PyTorch Zobacz opis lub Kup książkę, Kup e-book\n\n\n\n\n\nSpark. Zaawansowana analiza danych (ebook) Zobacz opis lub Kup e-book\nB. Chambers, M. Zaharia Spark: The Definitive Guide. Big Data Processing Made Simple (ebook) Zobacz opis lub Kup e-book\nJ. Quddus Machine Learning with Apache Spark Quick Start Guide (ebook) Zobacz opis lub Kup e-book\n\n\n\n\n\nG. Coldwind Zrozumieć programowanie Zobacz opis lub Kup książkę, Kup e-book\nA. Allain C++. Przewodnik dla początkujących Zobacz opis lub Kup książkę, Kup e-book\nS. Dasgupta, C. Papadimitriou, U. Vazirani Algorytmy PWN.\n\n\n\n\n\nJ. Krochmalski Docker. Projektowanie i wdrażanie aplikacji Zobacz opis lub Kup książkę, Kup e-book\nR. McKendrick, S. Gallagher Docker. Programowanie aplikacji dla zaawansowanych. Wydanie II Zobacz opis lub Kup książkę, Kup e-book\n\n\n\n\n\nP. Bell, B. Beer GitHub. Przyjazny przewodnik (ebook) Zobacz opis lub Kup e-book\n\n\n\n\n\nC. Althoff, Programista Samouk. Profesjonalny przewodnik do samodzielnej nauki kodowania. Zobacz opis lub Kup teraz, Kup e-book\nA. Sweigart, Automatyzacja nudnych zadań z pythonem. Zobacz opis lub Kup książkę, Kup e-book\nK. Reitz, T. Schlusser Przewodnik po Pythonie. Dobre praktyki i praktyczne narzędzia. Zobacz opis lub Kup teraz, Kup e-book\n\n\n\n\n\nB.Tate, L. Carslon, C. Hiibs, Ruby on Rails. Wprowadzenie. Wydanie II Zobacz opis lub Kup e-book\nB. Frain, Responsive Web Design. Projektowanie elastycznych witryn w HTML5 i CSS3, Zobacz opis lub Kup e-book\nK. Beck, TDD. Sztuda tworzenia, Zobacz opis lub Kup teraz, Kup e-book\nB. Dayley, Node.js, MongoDB, AngularJS. Kompendium wiedzy, Zobacz opis lub Kup teraz, Kup e-book\n\n\n\n\n\nA. Jacquier, O. Kondratyev, Quantum Machine Learning and Optimisation in Finance. On the Road to Quantum Advantage."
+  },
+  {
+    "objectID": "books.html#www-pages",
+    "href": "books.html#www-pages",
+    "title": "Books and WWW pages",
+    "section": "WWW Pages",
+    "text": "WWW Pages\n\nSoftware\n\nGithub\nGit-instrukcja\nwww.python.org\nPyPI python libraries\nAnaconda\nDocker\n\n\n\nPython libraries for data analysis\n\nNumPy\nSciPy\nPandas\nScikit-learn\nJupyter\nMatplotlib\nBeautiful Soup\nTheano\nKeras\nTensorFlow\nVirtual ENV\n\n\n\nText editors\n\nNotepad++\nSublime Text\nVisual Studio Code\n\n\n\nMarkdown\n\nMD\n\n\n\nJupyter notebook\n\nGaleria ciekawych notatników\nIntro\nKernels\nBringing the best out of jupyter for data science\nJupyter extensions\nI don’t like notebooks\nJupyter lab\nSpeed up jupyter notebook\n\n\n\nETL\n\ndata cookbook\n\n\n\nDatasets\n\nInternet Archive\nReddit\nKDnuggets\nKaggle\nList of datasets for machine learning research\nUCI Machine Learning Repo\nPublic API\nGoogle Datatset Search\n\n\n\nPython\n\nChris Albon Technical Notes on Using Data Science & AI\n40+ Python Statistics For Data Science Resources\nPractical Business Python\n\n\n\nML course\n\nKurs Machine Learning - Andrew Ng, Stanford"
+  },
+  {
+    "objectID": "sylabus.html",
+    "href": "sylabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Real Time Analytics\nSGH Warsaw School of Economics\nECTS: 3\nLanguage: EN\nlevel: medium\nday of week: Monday/Tuesday\nTeacher: Sebastian Zając, sebastian.zajac@sgh.waw.pl\nWebsite: http://sebkaz-teaching.github.io/EN"
+  },
+  {
+    "objectID": "sylabus.html#description",
+    "href": "sylabus.html#description",
+    "title": "Syllabus",
+    "section": "Description",
+    "text": "Description\nMaking the right decisions based on data and their analysis in business is a process and daily. Modern methods of modeling by machine learning (ML), artificial intelligence (AI), or deep learning not only allow better understanding of business, but also support making key decisions for it. The development of technology and increasingly new business concepts of working directly with the client require not only correct but also fast decisions. The classes offered are designed to provide students with experience and comprehensive theoretical knowledge in the field of real-time data processing and analysis, and to present the latest technologies (free and commercial) for the processing of structured data (originating e.g. from data warehouses) and unstructured (e.g. images, sound, video streaming) in on-line mode. The course will present the so called lambda and kappa structures for data processing into data lake along with a discussion of the problems and difficulties encountered in implementing real-time modeling for large amounts of data. Theoretical knowledge will be gained (apart from the lecture part) through the implementation of test cases in tools such as Apache Spark, Nifi, Microsoft Azure and SAS. During laboratory classes student will benefit from fully understand the latest information technologies related to real-time data processing."
+  },
+  {
+    "objectID": "sylabus.html#list-of-topics",
+    "href": "sylabus.html#list-of-topics",
+    "title": "Syllabus",
+    "section": "List of Topics",
+    "text": "List of Topics\n\nModelling, learning and prediction in batch mode (offline learning) and incremental (online learning) modes. Problems of incremental machine learning.\nData processing models in Big Data. From flat files to Data Lake. Real-time data myth and facts\nNRT systems (near real-time systems), data acquisition, streaming and analytics.\nAlgorithms for estimating model parameters in incremental mode. Stochastic Gradient Descent.\nLambda and Kappa architecture. Designing IT architecture for real-time data processing.\nPreparation of the micro-service with the ML model for prediction use.\nStructured and unstructured data. Relational databases and NoSQL databases.\nAggregations and reporting in NoSQL databases (on the example of the MongoDB or Cassandra)\nBasic of object-oriented programming in Python in linear and logistic regression, neural network analysis using the sklearn, TensorFlow and Keras.\nIT architecture of Big Data processing. Preparation of a virtual env for Apache Spark."
+  },
+  {
+    "objectID": "sylabus.html#conditions-for-passing",
+    "href": "sylabus.html#conditions-for-passing",
+    "title": "Syllabus",
+    "section": "Conditions for passing",
+    "text": "Conditions for passing\n\ntest 30%\npractical test 30% (IF)\ngroup project 40% (70%)"
+  },
+  {
+    "objectID": "sylabus.html#books",
+    "href": "sylabus.html#books",
+    "title": "Syllabus",
+    "section": "Books",
+    "text": "Books\n\nS. Zajac, “Modelowanie dla biznesu, Analityka w czasie rzeczywistym - narzędzia informatyczne i biznesowe”. SGH (2022)\nFrątczak E., red. “Modelowanie dla biznesu, Regresja logistyczna, Regresja Poissona, Survival Data Mining, CRM, Credit Scoring”. SGH, Warszawa 2019.\nFrątczak E., red., “Zaawansowane metody analiz statystycznych”, Oficyna Wydawnicza SGH, Warszawa 2012.\nIndest A., Wild Knowledge. Outthik the Revolution. LID publishing.com 2017.\nReal Time Analytic. “The Key to Unlocking Customer Insights & Driving the Customer Experience”. Harvard Business Review Analytics Series, Harvard Business School Publishing, 2018.\nSvolba G., “Applying Data Science. Business Case Studies Using SAS”. SAS Institute Inc., Cary NC, USA, 2017.\nEllis B. “Real-Time Analytics Techniques to Analyze and Visualize Streaming data.” , Wiley, 2014\nFamiliar B., Barnes J. “Business in Real-Time Using Azure IoT and Cortana Intelligence Suite” Apress, 2017"
+  },
+  {
+    "objectID": "info.html",
+    "href": "info.html",
+    "title": "Tools",
+    "section": "",
+    "text": "In terminal (Windows CMD) check\npython\nYou can also check:\npython3\nZwróć uwagę, aby Twoja wersja nie była niższa niż 3.X Aby wyjść z powłoki pythona użyj funkcji exit()\nPython 3.10.9 (main, Dec 15 2022, 17:11:09) [Clang 14.0.0 (clang-1400.0.29.202)] on darwin\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n>>> exit()\n\n\npython3 -m venv <name of env>\n\nsource <name of env>/bin/activate\n# . env/bin/activate\n\n(venv)$ \nSzybka instalacja podstawowych bibliotek i jupyterlab.\npip install --no-cache --upgrade pip setuptools\n\npip install jupyterlab numpy pandas matplotlib scipy\n# jeśli masz plik requirements.txt z potrzebnymi bibliotekami\npip install -r requirements.txt\n# uruchom \njupyterlab\nW przeglądarce internetowej wpisz: localhost:8888\nPo ponownym uruchomieniu przejdź do katalogu w którym utworzyłeś środowisko, następnie uruchom środowisko i jupyterlab.\nsource <name of env>/bin/activate\njupyterlab\n\n\n\nUtwórz konto na Kaggle, przejdź do zakładki Courses i przerób cały moduł Pythona. Zawiera on:\n\nwyrażenia i zmienne\nfunkcje\nwarunki i flow programu\nlisty\npętle\nstringi i słowniki\ndodawanie i używanie zewnętrznych bibliotek"
+  },
+  {
+    "objectID": "info.html#zacznij-korzystać-z-serwisu-github",
+    "href": "info.html#zacznij-korzystać-z-serwisu-github",
+    "title": "Tools",
+    "section": "Zacznij korzystać z serwisu GitHub",
+    "text": "Zacznij korzystać z serwisu GitHub\nTekst na podstawie strony jak korzystać z serwisu github\nPracując nad projektem np. praca magisterska, (samodzielnie lub w zespole) często potrzebujesz sprawdzić jakie zmiany, kiedy i przez kogo zostały wprowadzone do projektu. W zadaniu tym świetnie sprawdza się system kontroli wersji czyli GIT.\nGit możesz pobrać i zainstalować jak zwykły program na dowolnym komputerze. Jednak najczęściej (małe projekty) korzysta się z serwisów z jakimś systemem git. Jednym z najbardziej rozpoznawanych jest GitHub dzięki któremu możesz korzystać z systemu git bez jego instalacji na swoim komputerze.\nW darmowej wersji serwisu GitHub swoje pliki możesz przechowywać w publicznych (dostęp mają wszyscy) repozytoriach.\nSkupimy się wyłącznie na darmowej wersji serwisu GitHub.\ngit --version\n\nStruktura GitHuba\nNa najwyższym poziomie znajdują się konta indywidualne (np http://github.com/sebkaz, bądź zakładane przez organizacje. Użytkownicy indywidualni mogą tworzyć repozytoria publiczne (public ) bądź prywatne (private).\nJeden plik nie powinien przekraczać 100 MB.\nRepo (skrót do repozytorium) tworzymy za pomocą Create a new repository. Każde repo powinno mieć swoją indywidualną nazwę.\n\n\nBranche\nGłówna (tworzona domyślnie) gałąź rapozytorium ma nazwę master.\n\n\nNajważniejsze polecnia do zapamiętania\n\nściąganie repozytorium z sieci\n\ngit clone https://adres_repo.git\n\nW przypadku githuba możesz pobrać repozytorium jako plik zip.\n\n\nTworzenie repozytorium dla lokalnego katalogu\n\n# tworzenie nowego katalogu\nmkdir datamining\n# przejście do katalogu\ncd datamining\n# inicjalizacja repozytorium w katalogu\ngit init\n# powinien pojawić się ukryty katalog .git\n# dodajmy plik\necho \"Info \" >> README.md\n\nPołącz lokalne repozytorium z kontem na githubie\n\ngit remote add origin https://github.com/<twojGit>/nazwa.git\n\nObsługa w 3 krokach\n\n# sprawdź zmiany jakie zostały dokonane\ngit status\n# 1. dodaj wszystkie zmiany\ngit add .\n# 2. zapisz bierzący stan wraz z informacją co zrobiłeś\ngit commit -m \" opis \"\n# 3. potem już zostaje tylko\ngit push origin master\nWarto obejrzeć Youtube course."
+  },
+  {
+    "objectID": "info.html#zacznij-korzystać-z-dockera",
+    "href": "info.html#zacznij-korzystać-z-dockera",
+    "title": "Tools",
+    "section": "Zacznij korzystać z Dockera",
+    "text": "Zacznij korzystać z Dockera\nW celu pobrania oprogramowania docker na swój system przejdź do strony.\nJeżli wszystko zainstalowało się prawidłowo wykonaj następujące polecenia:\n\nSprawdź zainstalowaną wersję\n\ndocker --version\n\nŚciągnij i uruchom obraz Hello World i\n\ndocker run hello-world\n\nPrzegląd ściągnietych obrazów:\n\ndocker image ls\n\ndocker images\n\nPrzegląd uruchomionych kontenerów:\n\ndocker ps \n\ndocker ps -all\n\nZatrzymanie uruchomionego kontenera:\n\ndocker stop <CONTAINER ID>\n\nUsunięcie kontenera\n\ndocker rm -f <CONTAINER ID>\nPolecam również krótkie intro"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Info",
+    "section": "",
+    "text": "Kod: 222891-D\nWinter semester 2022/2023, SGH Warsaw School of Economics\nBasics information about this course can be found in the syllabus.\nList of books! I recommend.\nIf You don’t know what Python is go here."
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Info",
+    "section": "Schedule",
+    "text": "Schedule\n\nLectures\nThe lecture is carried out in hybrid mode. It is OPTIONAL and takes place in Aula I building G\n\n\n20-02-2023 (Monday) 08:00-9:30 - Lecture 1\n\n\nStructured and unstructured data, OLAP and OLTP data processing model. 2. 27-02-2023 (Monday) 08:00-9:30 - Lecture 2 3. 06-03-2023 (Monday) 08:00-9:30 - Lecture 3 4. 13-03-2023 (Monday) 08:00-9:30 - Lecture 4\nLectures end with a TEST: 10 questions - 20 minutes. The test is conducted via MS Teams.\n\n\nLabs\n\n21-03-2023 (tuesday) 08:00-11:30 - C4D 2 groups\n28-03-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy\n04-04-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy\n18-04-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy\n25-04-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy\n09-05-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy\n16-05-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy\n23-05-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy\n30-05-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy\n06-06-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy\n\n\n\nPlace\nLectures 1-4: G-Aula I Labs 1-10: C-4D\n\n\nExam\nLectures will end with a test (last class). Positive evaluation of the test (above 13 points) entitles you to carry out the exercises.\nAfter the exercises, homework will be carried out via the MS teams’ platform. Passing all exercises and tasks entitles you to complete the project.\nThe project should be carried out in groups of no more than 5 people.\nProject requirements:\n\nThe project should present a BUSINESS PROBLEM that can be implemented using the information provided online. (This does not mean that you cannot use batch processing, e.g. to generate a model).\nData should be sent to Apache Kafka and further processed and analyzed from there.\nThe programming language is free - applies to each component of the project.\nBI tools can be used\nData sources can be a table, artificially generated data, IoT, etc."
+  },
+  {
+    "objectID": "index.html#technology",
+    "href": "index.html#technology",
+    "title": "Info",
+    "section": "Technology",
+    "text": "Technology\nParticipating in the classes, you must know and at least use the following information technologies:\n\nGIT\nPython, Jupyter notebook, Jupyter lab, Colab\nDocker\nApache Spark, Apache Flink, Apache Kafka, Apache Beam\nDatabricks Community edition Web page."
   }
 ]
