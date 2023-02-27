@@ -15,8 +15,7 @@ The development of information technology has resulted in access to unimaginable
 
 Data has contributed to the development of thousands of new tools for `generating`, `collecting`, `storing` and `processing` information on an unprecedented scale.
 
-<!-- <img alt="data" src="/_files/images/main.jpeg"/> -->
-![](_files/images/main.jpeg){.center}
+![](img/main.jpeg){.center}
 
 
 The emergence of new scientific or business challenges becomes possible thanks to the construction of systems based on `open software`, and the use of home computers to support the processing of huge amounts of data.

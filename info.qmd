@@ -78,7 +78,7 @@ Jednym z najbardziej rozpoznawanych jest [GitHub](www.github.com) dzięki które
 W darmowej wersji serwisu `GitHub` swoje pliki możesz przechowywać w publicznych (dostęp mają wszyscy) repozytoriach.  
 Skupimy się wyłącznie na darmowej wersji serwisu GitHub.
 
-```{bash}
+```bash
 git --version
 ```
 
@@ -101,7 +101,7 @@ Główna (tworzona domyślnie) gałąź rapozytorium ma nazwę `master`.
 
 * _ściąganie repozytorium z sieci_
 
-```{bash}
+```bash
 git clone https://adres_repo.git
 ```
 
@@ -109,7 +109,7 @@ git clone https://adres_repo.git
 
 * _Tworzenie repozytorium dla lokalnego katalogu_
 
-```{bash}
+```bash
 # tworzenie nowego katalogu
 mkdir datamining
 # przejście do katalogu
@@ -123,13 +123,13 @@ echo "Info " >> README.md
 
 * Połącz lokalne repozytorium z kontem na githubie
 
-```{bash}
+```bash
 git remote add origin https://github.com/<twojGit>/nazwa.git
 ```
 
 * Obsługa w 3 krokach
 
-```{bash}
+```bash
 # sprawdź zmiany jakie zostały dokonane
 git status
 # 1. dodaj wszystkie zmiany
@@ -150,19 +150,19 @@ Jeżli wszystko zainstalowało się prawidłowo wykonaj następujące polecenia:
 
 1. Sprawdź zainstalowaną wersję
 
-```{bash}
+```bash
 docker --version
 ```
 
 2. Ściągnij i uruchom obraz `Hello World` i 
 
-```{bash}
+```bash
 docker run hello-world
 ```
 
 3. Przegląd ściągnietych obrazów:
 
-```{bash}
+```bash
 docker image ls
 
 docker images
@@ -170,7 +170,7 @@ docker images
 
 4. Przegląd uruchomionych kontenerów:
 
-```{bash}
+```bash
 docker ps 
 
 docker ps -all
@@ -178,12 +178,12 @@ docker ps -all
 
 5. Zatrzymanie uruchomionego kontenera: 
 
-```{bash}
+```bash
 docker stop <CONTAINER ID>
 ```
 
 6. Usunięcie kontenera
-```{bash}
+```bash
 docker rm -f <CONTAINER ID>
 ```
 
