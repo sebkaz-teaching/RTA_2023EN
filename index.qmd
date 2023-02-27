@@ -24,6 +24,7 @@ The lecture is carried out in hybrid mode.
 It is OPTIONAL and takes place in Aula I building G
 
 1. <del>20-02-2023 (Monday) 08:00-9:30 - Lecture 1</del>
+
 Structured and unstructured data, OLAP and OLTP data processing model.
 2. 27-02-2023 (Monday) 08:00-9:30 - Lecture 2
 3. 06-03-2023 (Monday) 08:00-9:30 - Lecture 3

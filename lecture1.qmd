@@ -176,4 +176,4 @@ Because microservices are strictly decoupled from each other and only communicat
 Both are performed in batch mode. 
 Today they are strictly made using Hadoop technology.
 
-<img alt="OLAP system" src="/_files/images/baza2.png" align="center" />
+<img alt="OLAP system" src="_files/images/baza2.png" align="center" />
