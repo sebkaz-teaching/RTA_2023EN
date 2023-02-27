@@ -120,9 +120,9 @@ It works great in the case of ongoing service, e.g. customer service, order regi
 Companies use all kinds of applications for their day-to-day business activities, such as Enterprise Resource Planning (ERP) Systems, Customer Relationship Management (CRM) software, and web-based applications.
 These systems are typically designed with separate tiers for data processing and data storage (transactional database system).
 
-<!-- <img alt="OLTP system" src="/_files/images/baza1.png" align="center" /> -->
-![](_files/images/baza1.png){.center}
-
+<!-- <img alt="OLTP system" src="img/baza1.png" align="center" /> -->
+![](img/baza1.png){.center}
+![](img/main.jpeg){.center}
 Applications are usually connected to external services or face human users and continuously process incoming events such as orders, emails, or clicks on a website.
 
 When **an event** is processed, an application reads its state or updates it by running transactions against the remote database system. Often, a database system serves multiple applications that sometimes access the same databases or tables.
@@ -176,7 +176,6 @@ Because microservices are strictly decoupled from each other and only communicat
 Both are performed in batch mode. 
 Today they are strictly made using Hadoop technology.
 
-<!-- <img alt="OLAP system" src="_files/images/baza2.png"/> -->
+<!-- <img alt="OLAP system" src="img/baza2.png"/> -->
 
-
-![](_files/images/baza2.png){.center}
+![](img/baza2.png){.center}

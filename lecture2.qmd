@@ -7,14 +7,14 @@ title: "Lecture 2 - Time to Stream"
 
 Expectations vs Reality
 
-<!-- <img alt="Batch Processing" src="_files/images/batch00.png" align="center" /> -->
-![](_files/images/batch00.png){.center}
+<!-- <img alt="Batch Processing" src="img/batch00.png" align="center" /> -->
+![](img/batch00.png){.center}
 
 When to take a business decision? 
 
 
-<!-- <img alt="Batch Processing" src="_files/images/batch0.png" align="center" /> -->
-![](_files/images/batch0.png){.center}
+<!-- <img alt="Batch Processing" src="img/batch0.png" align="center" /> -->
+![](img/batch0.png){.center}
 
 ### Data Processing Types
 
@@ -32,7 +32,7 @@ When to take a business decision?
 2. Stream = ,,impossible''
 
 
-<img alt="Batch Processing" src="_files/images/batch1.png" align="center" />
+<img alt="Batch Processing" src="img/batch1.png" align="center" />
 
 
 ### ETL
@@ -59,7 +59,7 @@ But Data Warehouses are not Big Data Systems!
 - less than 100 \% accuracy
 
 
-<img alt="Batch Processing" src="_files/images/batch2.png" align="center" />
+<img alt="Batch Processing" src="img/batch2.png" align="center" />
 
 ### ELT process
 
@@ -164,20 +164,20 @@ Transformed data could be loss information.
 
 ## Hadoop Map-Reduce
 
-<img alt="Batch Processing" src="_files/images/batch3.png" align="center" />
+<img alt="Batch Processing" src="img/batch3.png" align="center" />
 
 > Find a simple map-reduce algorithm in any programming language and run it.
 
-<img alt="Batch Processing" src="_files/images/batch4.png" align="center" />
+<img alt="Batch Processing" src="img/batch4.png" align="center" />
 
 How to improve?
 
 ### APACHE SPARK
 
-<img alt="Batch Processing" src="_files/images/batch5.png" align="center" />
+<img alt="Batch Processing" src="img/batch5.png" align="center" />
 
 <br/>
-<img alt="Batch Processing" src="_files/images/batch6.png" align="center" />
+<img alt="Batch Processing" src="img/batch6.png" align="center" />
 
 
 
@@ -212,7 +212,7 @@ Systems for continuous streams of events:
 - web browsers
 
 
-<img alt="Batch Processing" src="_files/images/stream1.png" align="center" />
+<img alt="Batch Processing" src="img/stream1.png" align="center" />
 
 - Web server logs
 - Recommendation systems (personalization)
@@ -301,7 +301,7 @@ Instead of waiting for periodic triggers, the streaming application continuously
 Streaming applications store their results in an external datastore that supports efficient updates (high-performance database or key-value database).
 Streaming application performance refreshed life can feed into various types of graphs (shown live).
 
- <img alt="OLAP system" src="_files/images/baza3.png" align="center" />
+ <img alt="OLAP system" src="img/baza3.png" align="center" />
 
 Streaming Analytics Applications are used in:
 

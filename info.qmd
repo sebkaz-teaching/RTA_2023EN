@@ -1,191 +1,213 @@
+
 ---
-title: Tools
+title: "All tools"
 ---
 
-## Python
 
-In terminal (Windows CMD) check
+## Python env with Jupyter LAB
+
+For our first a few laboratories we will use just python codes. 
+Check what is Your Python3 environment. 
+
+In the terminal try first:
 ```bash
 python
-```
-You can also check:
-```bash
+# and
 python3
 ```
 
-Zwróć uwagę, aby Twoja wersja nie była niższa niż 3.X
-Aby wyjść z powłoki pythona użyj funkcji `exit()`
-```bash
-Python 3.10.9 (main, Dec 15 2022, 17:11:09) [Clang 14.0.0 (clang-1400.0.29.202)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> exit()
-```
-### Nowe środowisko pythona
+I have python3 (You shouldn't use python 2.7 version) so i get new and clear python environment.
+
+
+The easiest way how to run JupyterLab with your new python env. 
+For _<name of Your env>_ You can choose what You want. 
 
 ```bash
-python3 -m venv <name of env>
+python3 -m venv <name of Your env>
 
-source <name of env>/bin/activate
+source <name of your env>/bin/activate
 # . env/bin/activate
-
-(venv)$ 
-```
-
-Szybka instalacja podstawowych bibliotek i jupyterlab.
-```bash
 pip install --no-cache --upgrade pip setuptools
 
 pip install jupyterlab numpy pandas matplotlib scipy
-# jeśli masz plik requirements.txt z potrzebnymi bibliotekami
+# or
 pip install -r requirements.txt
-# uruchom 
+
 jupyterlab
 ```
-W przeglądarce internetowej wpisz: _localhost:8888_
+go to web browser: _localhost:8888_
 
-Po ponownym uruchomieniu przejdź do katalogu w którym utworzyłeś środowisko, 
-następnie uruchom środowisko i jupyterlab.
+If You want rerun jupyterlab (after computer reset) just go to Your folder and run: 
 
 ```bash
-source <name of env>/bin/activate
+source <name of your env>/bin/activate
 jupyterlab
 ```
-### Naucz się Pythona w 2 godziny
-
-Utwórz konto na [Kaggle](https://kaggle.com), przejdź do zakładki `Courses` i przerób cały moduł Pythona. Zawiera on: 
-
-- wyrażenia i zmienne
-- funkcje
-- warunki i flow programu
-- listy
-- pętle
-- stringi i słowniki
-- dodawanie i używanie zewnętrznych bibliotek
 
 
-## Zacznij korzystać z serwisu GitHub
+## Python env with JupyterLAB Docker Version
 
-Tekst na podstawie strony [jak korzystać z serwisu github](http://pbiecek.github.io/Przewodnik/Programowanie/jak_korzystac_z_serwisu_github_i_waffle.html)
+### Cookiecutter project 
+From [GitHub](https://github.com/sebkaz/jupyterlab-project) repository You can
+find how to use a cookiecutter for any data science project or other kind of programs. 
+
+To run and build full dockerfile project:
+Create python env and install cookiecutter library.
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip --no-cache install --upgrade pip setuptools
+pip install cookiecutter
+```
+and run:
+```bash
+cookiecutter https://github.com/sebkaz/jupyterlab-project
+```
+You can run a cookiecutter project directly from GitHub repo.
+
+Answer questions: 
+```bash
+cd jupyterlab
+docker-compose up -d --build
+```
+To stop: 
+```bash
+docker-compose down
+```
+
+### Cookiecutter with config yaml file
+
+1. [Python, Julia, R](https://github.com/sebkaz/docker-jupyterlab)
+2. [All + Apache Spark](https://github.com/sebkaz/docker-spark-jupyterlab)
+
+Clone repo and run:
+```bash 
+python3 -m cookiecutter https://github.com/sebkaz/jupyterlab-project --no-input --config-file=spark_template.yml --overwrite-if-exists
+```
 
 
-Pracując nad projektem np. praca magisterska, (samodzielnie lub w zespole) często potrzebujesz sprawdzić jakie zmiany, kiedy i przez kogo zostały wprowadzone do projektu.
-W zadaniu tym świetnie sprawdza się `system kontroli wersji` czyli [GIT](https://git-scm.com). 
+## Start with GitHub
 
-Git możesz pobrać i zainstalować jak zwykły program na dowolnym komputerze.
-Jednak najczęściej (małe projekty) korzysta się z serwisów z jakimś systemem git. 
-Jednym z najbardziej rozpoznawanych jest [GitHub](www.github.com) dzięki któremu możesz korzystać z systemu git bez jego instalacji na swoim komputerze.
+Text from [web site](http://pbiecek.github.io/Przewodnik/Programowanie/jak_korzystac_z_serwisu_github_i_waffle.html)
 
-W darmowej wersji serwisu `GitHub` swoje pliki możesz przechowywać w publicznych (dostęp mają wszyscy) repozytoriach.  
-Skupimy się wyłącznie na darmowej wersji serwisu GitHub.
+
+
+When You working on a project, e.g. a master's thesis, (alone or in a team) you often need to check what changes, when and by whom were introduced to the project.
+The "version control system" or [GIT](https://git-scm.com) works great for this task.
+
+You can download and install Git like a regular program on any computer.
+However, most often (small projects) you use websites with some kind of git system.
+One of the most recognized is [GitHub] (www.github.com) which allows you to use the git system without installing it on your computer.
+
+In the free version of the `GitHub` website, you can store your files in public (everyone has access) repositories.
+We will only focus on the free version of GitHub:
 
 ```bash
 git --version
 ```
 
-### Struktura GitHuba
+## GitHub
 
-Na najwyższym poziomie znajdują się konta indywidualne (np [http://github.com/sebkaz](http://github.com/sebkaz), bądź zakładane przez organizacje. 
-Użytkownicy indywidualni mogą tworzyć **repozytoria** publiczne (`public` ) bądź prywatne (`private`). 
+At the highest level, there are individual accounts (eg. [http://github.com/sebkaz](http://github.com/sebkaz) or those set up by organizations.
+Individual users can create ** repositories ** public (`public`) or private (` private`).
 
-Jeden plik nie powinien przekraczać 100 MB.
+One file should not exceed 100 MB.
 
-**Repo** (skrót do repozytorium) tworzymy za pomocą `Create a new repository`.
- Każde repo powinno mieć swoją indywidualną nazwę. 
+**Repo** (shortcut to repository) is created with `Create a new repository`.
+ Each repo should have an individual name.
 
-### Branche
+### Branches
 
-Główna (tworzona domyślnie) gałąź rapozytorium ma nazwę `master`.
+The main (created by default) branch of the repository is named `master`.
 
 
-### Najważniejsze polecnia do zapamiętania
+### Most important commends
 
-* _ściąganie repozytorium z sieci_
+* _clone of Your repository_
 
 ```bash
 git clone https://adres_repo.git
 ```
 
-> W przypadku githuba możesz pobrać repozytorium jako plik zip.
+> In github case, you can download the repository as a 'zip' file.
 
-* _Tworzenie repozytorium dla lokalnego katalogu_
+* _Repository for local directory_
 
 ```bash
-# tworzenie nowego katalogu
+# new directory
 mkdir datamining
-# przejście do katalogu
 cd datamining
-# inicjalizacja repozytorium w katalogu
+# init repo
 git init
-# powinien pojawić się ukryty katalog .git
-# dodajmy plik
+# there sould be a .git new directory
+# add file
 echo "Info " >> README.md
 ```
 
-* Połącz lokalne repozytorium z kontem na githubie
+* local and web version connection 
 
 ```bash
 git remote add origin https://github.com/<twojGit>/nazwa.git
 ```
 
-* Obsługa w 3 krokach
+* 3 steps
 
 ```bash
-# sprawdź zmiany jakie zostały dokonane
+# status check
 git status
-# 1. dodaj wszystkie zmiany
+# 1. add all changes
 git add .
-# 2. zapisz bierzący stan wraz z informacją co zrobiłeś
-git commit -m " opis "
-# 3. potem już zostaje tylko
+# 2. commit all changes with message
+git commit -m " message "
+# 3. and
 git push origin master
 ```
-Warto obejrzeć [Youtube course](https://www.youtube.com/watch?v=HVsySz-h9r4).
+You can watch [Youtube course](https://www.youtube.com/watch?v=HVsySz-h9r4).
 
 
-## Zacznij korzystać z Dockera
 
-W celu pobrania oprogramowania docker na swój system przejdź do [strony](https://docs.docker.com/get-docker/).
 
-Jeżli wszystko zainstalowało się prawidłowo wykonaj następujące polecenia:
+All the necessary programs will be delivered in the form of docker containers.
 
-1. Sprawdź zainstalowaną wersję
+## Start with Docker
 
+In order to download the docer software to your system, go to [ the page](https://docs.docker.com/get-docker/).
+
+If everything is installed correctly, follow these instructions:
+
+1. Check the installed version
 ```bash
 docker --version
 ```
 
-2. Ściągnij i uruchom obraz `Hello World` i 
-
+2. Download and run the image `Hello World` and
 ```bash
 docker run hello-world
 ```
-
-3. Przegląd ściągnietych obrazów:
-
+3. Overview of downloaded images:
 ```bash
 docker image ls
 
 docker images
 ```
-
-4. Przegląd uruchomionych kontenerów:
-
+4. Overview of running containers:
 ```bash
 docker ps 
 
 docker ps -all
 ```
-
-5. Zatrzymanie uruchomionego kontenera: 
-
+5. Stopping a running container:
 ```bash
 docker stop <CONTAINER ID>
 ```
-
-6. Usunięcie kontenera
+6. Container removal
 ```bash
 docker rm -f <CONTAINER ID>
 ```
 
-Polecam również [krótkie intro](https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98)
+I also recommend [short intro](https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98)
 
+
+## Docker as an application continuation tool
+
+[Docker with jupyter notebook](https://hub.docker.com/repository/docker/sebkaz/docker-data-science)
