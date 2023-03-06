@@ -58,3 +58,95 @@ Its characteristic feature is that each event belongs to only one window.
 Typically used to smooth data.
 <img src="img/rys2_7.png"  class="center" />
 
+# Microservices architecture
+
+The concept of microservices is important to understand when working on architectures. Although there are other ways to architecture software projects, `microservices` are quite popular for a good reason. They help teams be flexible and effective, and help to keep software felxible and clearly structured. 
+
+The idea behind microservices is in the name: software is represented as many small sercives that operate individually. 
+When looking at the overall architecture, each of the microservices is inside a small, black box with clearly defined inputs and outputs.
+
+To allow different microservices to communicate, an often-chosen solution is to use Application Programming Interfaces - **API**.
+
+### Communication through API
+
+A central component in microservice architectures is the use of APIs. An API is a part that allows you connect two microservices together. API are much like websites. Just like a website, the server of the website sends You the code that represents the website. Your internet browser then interprets this code and shows you a web page. 
+
+
+In other way let's take a business case with ML model as a service. Let’s assume you work for company that sells apartments in Boston.
+We want to increase our sales and offer better quality services to our customers by new mobile application which can be used even by 1 000 000 people simultaneously. 
+We can realize this by serving a prediction of house value when the user sends a request for pricing over the web.
+
+#### Serving a Model 
+
+- Training a good ML model is ONLY the first part:
+You do need to make your model available to your end-users
+You do this by either providing access to the model on your SERVER.
+- When serving ML Model You need: a model, an interpreter, input data.
+- Important Metrics:
+
+1. Latency,
+2. Cost,
+3. Throughput (number of requests served per unit time)
+
+> Sharing data between two or more systems has always been a fundamental requirement of software development – DevOps vs MLOps.
+
+When you call an API, the API will receive your request. The request triggers your code to be run on the server and generates a response that is sent back to you. If something goes wrong, you may not receive any response, or receive an error code as a HTTP status code. 
+
+> Client-Server: Client (systemA) makes an HTTP request to a URL hosted by SystemB, which returns a response. It’s identical to how a browser works. A browser makes a request for a specific URL. The request is routed to a web server which typically returns an HTML (text) page.
+
+> Stateless: The client request should contain all the information necessary to respond.
+
+You can call APIs with a lot of different tools. Sometimes, you can even use your internet browser, otherwise, tools such as CURL,do the job on the command line. You can use tools such a Postman for calling APIs with user interface.
+
+> All the communication is covered in fixed rules and practices, which, together, are called the HTTP protocol.
+
+#### Request
+
+1.  An Endpoint URL a domain, port, path, query string - http://mydomain:8000/getapi?&val1=43&val2=3
+2.  The HTTP methods - GET, POST
+3.  HTTP headers contain authentication information, cookies metadata
+        - Content-Type: application/json, text ... Accept: application/json, Authorization: Basic abase64string, Tokens etc
+4.  Request body
+
+The most common format for interaction between services is the `JavaScript Object Notation` format.
+it is a data type that very strongly resembles the dictionary format in Python - key-value object.  
+
+```json
+{
+"RAD": 1,
+"PTRATIO": 15.3, "INDUS": 2.31, "B": 396.9,
+"ZN": 18,
+"DIS": 4.09, "CRIM": 0.00632, "RM": 6.575, "AGE": 65.2, "CHAS": 0, "NOX": 0.538, "TAX": 296, "LSTAT": 4.98
+}
+```
+
+#### Response
+
+1. The response payload is defined in the response header: 
+```bash
+200 OK
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Mon, 18 Jul 2016 16:06:00 GMT Server: Apache
+Path=/;
+```
+
+2. Header example: "Content-Type" => "application/json; charset=utf-8", "Server" => "Genie/Julia/1.8.5
+
+3. Body example: 
+```json
+{":input":{"RAD":1,"PTRATIO":15.3,"INDUS":2.31,.....}}, {":prediction":[29.919737211857683]}
+```
+4. HTTP status code:
+• 200 OK is used for successful requests,
+• 40X Access Denied
+• 50X Internal server error
+
+#### REST API
+
+The Representational State Transfer (REST) API works just like other APIs, but it follows a certain set of style rules that make it reconizable as a REST API: 
+- Client-server architecture
+- Statelessnes
+- Cacheability
+- Layered system 
+- Uniform Interface
