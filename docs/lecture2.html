@@ -173,10 +173,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="batch-vs-stream-processing" class="level2">
 <h2 class="anchored" data-anchor-id="batch-vs-stream-processing">Batch vs Stream Processing</h2>
 <p>Expectations vs Reality</p>
-<!-- <img alt="Batch Processing" src="img/batch00.png" align="center" /> -->
+<!-- <img alt="Batch Processing" src="img/batch00.png" class="center" /> -->
 <p><img src="img/batch00.png" class="center img-fluid"></p>
 <p>When to take a business decision?</p>
-<!-- <img alt="Batch Processing" src="img/batch0.png" align="center" /> -->
+<!-- <img alt="Batch Processing" src="img/batch0.png" class="center" /> -->
 <p><img src="img/batch0.png" class="center img-fluid"></p>
 <section id="data-processing-types" class="level3">
 <h3 class="anchored" data-anchor-id="data-processing-types">Data Processing Types</h3>
@@ -198,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Batch = possible and used very often</li>
 <li>Stream = ,,impossible’’</li>
 </ol>
-<p><img alt="Batch Processing" src="img/batch1.png" align="center"></p>
+<p><img alt="Batch Processing" src="img/batch1.png" class="center"></p>
 </section>
 <section id="etl" class="level3">
 <h3 class="anchored" data-anchor-id="etl">ETL</h3>
@@ -225,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
 <li>serves a variety of data-driven purposes (analytics, data science …)</li>
 <li>less than 100 % accuracy</li>
 </ul>
-<p><img alt="Batch Processing" src="img/batch2.png" align="center"></p>
+<p><img alt="Batch Processing" src="img/batch2.png" class="center"></p>
 <section id="elt-process" class="level3">
 <h3 class="anchored" data-anchor-id="elt-process">ELT process</h3>
 <p>ELT process is similar to ETL and has the same stages involved, but the order of performing ETL stages is different. Extract data from one or many sources and Load it to the destination system for example “data lake”. After that, You can Transform Your data a more dynamically on demand.</p>
@@ -278,16 +278,16 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="hadoop-map-reduce" class="level2">
 <h2 class="anchored" data-anchor-id="hadoop-map-reduce">Hadoop Map-Reduce</h2>
-<p><img alt="Batch Processing" src="img/batch3.png" align="center"></p>
+<p><img alt="Batch Processing" src="img/batch3.png" class="center"></p>
 <blockquote class="blockquote">
 <p>Find a simple map-reduce algorithm in any programming language and run it.</p>
 </blockquote>
-<p><img alt="Batch Processing" src="img/batch4.png" align="center"></p>
+<p><img alt="Batch Processing" src="img/batch4.png" class="center"></p>
 <p>How to improve?</p>
 <section id="apache-spark" class="level3">
 <h3 class="anchored" data-anchor-id="apache-spark">APACHE SPARK</h3>
-<p><img alt="Batch Processing" src="img/batch5.png" align="center"></p>
-<p><br> <img alt="Batch Processing" src="img/batch6.png" align="center"></p>
+<p><img alt="Batch Processing" src="img/batch5.png" class="center"></p>
+<p><br> <img alt="Batch Processing" src="img/batch6.png" class="center"></p>
 </section>
 </section>
 <section id="stream-of-data" class="level1">
@@ -321,7 +321,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Cloud applications</li>
 <li>web browsers</li>
 </ul>
-<p><img alt="Batch Processing" src="img/stream1.png" align="center"></p>
+<p><img alt="Batch Processing" src="img/stream1.png" class="center"></p>
 <ul>
 <li>Web server logs</li>
 <li>Recommendation systems (personalization)</li>
@@ -391,7 +391,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="data-analytics-applications-streaming-analytics">Data analytics applications (streaming analytics)</h3>
 <p>ETL jobs periodically (and periodically over time) import data into the database, with the data being processed by scheduled queries. Regardless of the data warehouse architecture (or components such as Hadoop), this processing is ‘batch’. Analytical processes (OLAP) are performed in the warehouse, which is supplemented as described above. Although periodic data completion (i.e.&nbsp;the entire ETL process) is a kind of ‘art’, it introduces considerable delays in the analytical process. Depending on the data upload schedule, the next data point may appear after an hour or even several days. Even in the case of continuous replenishment of the warehouse (data pipeline app), there is still a significant delay in the analytical polling of such a database. While such delays were acceptable in the past, today’s applications must collect, process and analyze data in real-time (personalizing user behaviour on websites or dynamically changing conditions in mobile games).</p>
 <p>Instead of waiting for periodic triggers, the streaming application continuously downloads event streams and updates the results to include the latest events with low latency. Streaming applications store their results in an external datastore that supports efficient updates (high-performance database or key-value database). Streaming application performance refreshed life can feed into various types of graphs (shown live).</p>
-<p><img alt="OLAP system" src="img/baza3.png" align="center"></p>
+<p><img alt="OLAP system" src="img/baza3.png" class="center"></p>
 <p>Streaming Analytics Applications are used in:</p>
 <ol type="1">
 <li>Monitoring the quality of telephone networks</li>
