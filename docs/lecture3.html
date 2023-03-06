@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Real-Time Analytics - Syllabus</title>
+<title>Real-Time Analytics - Lecture 3 - Microservices architecture</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,11 +92,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Lecture 2</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./lecture3.html">
+    <a class="nav-link active" href="./lecture3.html" aria-current="page">
  <span class="menu-text">Lecture 3</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./sylabus.html" aria-current="page">
+    <a class="nav-link" href="./sylabus.html">
  <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
@@ -122,10 +122,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
-  <li><a href="#list-of-topics" id="toc-list-of-topics" class="nav-link" data-scroll-target="#list-of-topics">List of Topics</a></li>
-  <li><a href="#conditions-for-passing" id="toc-conditions-for-passing" class="nav-link" data-scroll-target="#conditions-for-passing">Conditions for passing</a></li>
-  <li><a href="#books" id="toc-books" class="nav-link" data-scroll-target="#books">Books</a></li>
+  <li><a href="#time-in-real-time-data-analysis" id="toc-time-in-real-time-data-analysis" class="nav-link active" data-scroll-target="#time-in-real-time-data-analysis">Time in real-time data analysis</a></li>
+  <li><a href="#time-windows" id="toc-time-windows" class="nav-link" data-scroll-target="#time-windows">time-windows</a></li>
   </ul>
 </nav>
     </div>
@@ -134,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Syllabus</h1>
+<h1 class="title">Lecture 3 - Microservices architecture</h1>
 </div>
 
 
@@ -149,55 +147,29 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<blockquote class="blockquote">
-<p>Real Time Analytics</p>
-<p>SGH Warsaw School of Economics</p>
-<p>ECTS: 3</p>
-<p>Language: EN</p>
-<p>level: medium</p>
-<p>day of week: Monday/Tuesday</p>
-</blockquote>
-<p><strong>Teacher:</strong> <a href="https://sebastianzajac.pl">Sebastian Zając</a>, <a href="mailto:sebastian.zajac@sgh.waw.pl">sebastian.zajac@sgh.waw.pl</a></p>
-<p><strong>Website:</strong> <a href="https://sebkaz-teaching.github.io/RTA_2023EN">http://sebkaz-teaching.github.io/EN</a></p>
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
-<p>Making the right decisions based on data and their analysis in business is a process and daily. Modern methods of modeling by machine learning (ML), artificial intelligence (AI), or deep learning not only allow better understanding of business, but also support making key decisions for it. The development of technology and increasingly new business concepts of working directly with the client require not only correct but also fast decisions. The classes offered are designed to provide students with experience and comprehensive theoretical knowledge in the field of real-time data processing and analysis, and to present the latest technologies (free and commercial) for the processing of structured data (originating e.g.&nbsp;from data warehouses) and unstructured (e.g.&nbsp;images, sound, video streaming) in on-line mode. The course will present the so called lambda and kappa structures for data processing into data lake along with a discussion of the problems and difficulties encountered in implementing real-time modeling for large amounts of data. Theoretical knowledge will be gained (apart from the lecture part) through the implementation of test cases in tools such as Apache Spark, Nifi, Microsoft Azure and SAS. During laboratory classes student will benefit from fully understand the latest information technologies related to real-time data processing.</p>
-</section>
-<section id="list-of-topics" class="level2">
-<h2 class="anchored" data-anchor-id="list-of-topics">List of Topics</h2>
+<section id="time-in-real-time-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="time-in-real-time-data-analysis">Time in real-time data analysis</h2>
+<p>In the case of batch processing, we process historical data and the start time of the processing process has nothing to do with the time of occurrence of the analyzed events.</p>
+<p>For streaming data, we have two time concepts:</p>
 <ol type="1">
-<li>Modelling, learning and prediction in batch mode (offline learning) and incremental (online learning) modes. Problems of incremental machine learning.</li>
-<li>Data processing models in Big Data. From flat files to Data Lake. Real-time data myth and facts</li>
-<li>NRT systems (near real-time systems), data acquisition, streaming and analytics.</li>
-<li>Algorithms for estimating model parameters in incremental mode. Stochastic Gradient Descent.</li>
-<li>Lambda and Kappa architecture. Designing IT architecture for real-time data processing.</li>
-<li>Preparation of the micro-service with the ML model for prediction use.</li>
-<li>Structured and unstructured data. Relational databases and NoSQL databases.</li>
-<li>Aggregations and reporting in NoSQL databases (on the example of the MongoDB or Cassandra)</li>
-<li>Basic of object-oriented programming in Python in linear and logistic regression, neural network analysis using the sklearn, TensorFlow and Keras.</li>
-<li>IT architecture of Big Data processing. Preparation of a virtual env for Apache Spark.</li>
+<li><code>event time</code> - time in which the event happened.</li>
+<li><code>processing time</code> - time during which the system processes the event.</li>
 </ol>
+<p>In an ideal situation: <br> <img src="img/rys2_1.png" class="center"></p>
+<p>In fact, data processing always takes place with a certain delay, which is represented by the points appearing below the function for the ideal situation (below the diagonal).</p>
+<p><br> <img src="img/rys2_2.png" class="center"></p>
+<p>In stream processing applications, the differences between the time of the occurrence of an event and its processing prove to be important. The most common causes of delay are data transmission over the network or lack of communication between the device and the network. A simple example is driving a car through a tunnel and tracking the position via a GPS application.</p>
+<p>Of course, you can count the number of such missed events and trigger an alarm if there are too many such rejects.</p>
+<p>The second (probably more often) used method is the use of the so-called correction <code>watermarking</code>.</p>
+<p>The real-time event processing process can be represented as a step function, represented in the figure: <img src="img/rys2_3.png" class="center"></p>
+<p>As can be seen, not all events contribute to the analysis and processing. The implementation of the processing process along with additional time for the occurrence of events (watermarking) can be presented as a process covering all events above the dashed line. The extra time allowed for additional events to be processed, but there may still be points that will not be taken into account. <img src="img/rys2_4.png" class="center"></p>
+<p>The situations presented in the graphs clearly indicate why the concept of time is an important factor and requires precise definition already at the level of defining business needs. Timestamping data (events) is a difficult task.</p>
 </section>
-<section id="conditions-for-passing" class="level2">
-<h2 class="anchored" data-anchor-id="conditions-for-passing">Conditions for passing</h2>
-<ul>
-<li>test 30%</li>
-<li>practical test 30% (IF)</li>
-<li>group project 40% (70%)</li>
-</ul>
-</section>
-<section id="books" class="level2">
-<h2 class="anchored" data-anchor-id="books">Books</h2>
-<ol type="1">
-<li>S. Zajac, “Modelowanie dla biznesu, Analityka w czasie rzeczywistym - narzędzia informatyczne i biznesowe”. SGH (2022)</li>
-<li>Frątczak E., red. “Modelowanie dla biznesu, Regresja logistyczna, Regresja Poissona, Survival Data Mining, CRM, Credit Scoring”. SGH, Warszawa 2019.</li>
-<li>Frątczak E., red., “Zaawansowane metody analiz statystycznych”, Oficyna Wydawnicza SGH, Warszawa 2012.</li>
-<li>Indest A., Wild Knowledge. Outthik the Revolution. LID publishing.com 2017.</li>
-<li>Real Time Analytic. “The Key to Unlocking Customer Insights &amp; Driving the Customer Experience”. Harvard Business Review Analytics Series, Harvard Business School Publishing, 2018.</li>
-<li>Svolba G., “Applying Data Science. Business Case Studies Using SAS”. SAS Institute Inc., Cary NC, USA, 2017.</li>
-<li>Ellis B. “Real-Time Analytics Techniques to Analyze and Visualize Streaming data.” , Wiley, 2014</li>
-<li>Familiar B., Barnes J. “Business in Real-Time Using Azure IoT and Cortana Intelligence Suite” Apress, 2017</li>
-</ol>
+<section id="time-windows" class="level2">
+<h2 class="anchored" data-anchor-id="time-windows">time-windows</h2>
+<p><strong>Tumbling window</strong> is a fixed-length window. Its characteristic feature is that each event belongs to only one window. <br> <img src="img/rys2_5.png" class="center"></p>
+<p><strong>Sliding window</strong> includes all events occurring in a certain length among themselves. <br> <img src="img/rys2_6.png" class="center"></p>
+<p><strong>disjoint window</strong> has a fixed length, but allows one window to overlap another. Typically used to smooth data. <img src="img/rys2_7.png" class="center"></p>
 
 
 </section>

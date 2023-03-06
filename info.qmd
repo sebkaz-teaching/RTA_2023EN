@@ -16,10 +16,10 @@ python
 python3
 ```
 
-I have python3 (You shouldn't use python 2.7 version) so i get new and clear python environment.
+I have python3 (You shouldn't use python 2.7 version) so i create a new and a clear python environment.
 
 
-The easiest way how to run JupyterLab with your new python env. 
+The easiest way how to run a JupyterLab with your new python env. 
 For _<name of Your env>_ You can choose what You want. 
 
 ```bash

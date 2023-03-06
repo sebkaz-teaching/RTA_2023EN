@@ -10,6 +10,10 @@ title: Books and WWW pages
 
 2. F. Hueske, V. Kalavri _Stream Processing with Apache Flink_ [Zobacz opis](http://helion.pl/view/111546/e_13f8.html) lub [Kup e-book](http://helion.pl/add111546~e_13f8_ebook)
 
+<div id="bellemare">
+3. A. Bellemare _Mikrousługi oparte na zdarzeniach. Wykorzystanie danych w organizacji na dużą skalę_ [Zobacz opis](http://helion.pl/view/111546/miopzd) lub [Kup](http://helion.pl/add111546~miopzd)
+</div>
+
 ### Machine Learning with Pyton
 
 1. W. McKinney _Python w analizie danych. Przetwarzanie danych za pomocą pakietów Pandas i NumPy oraz środowiska IPython. Wydanie II_  [Zobacz opis](http://helion.pl/view/111546/pytand.html) lub [Kup książkę](http://helion.pl/add111546~pytand), [Kup e-book](http://helion.pl/add111546~pytand_ebook)

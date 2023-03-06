@@ -8,7 +8,7 @@ We try to describe why stateful stream processing is becoming so popular and ass
 But first, we start by reviewing classical **data** app architectures and point out their limitations.
 
 
-##  Data -> Small Data -> ...
+##  Data. From data file to data lake
 
 The development of information technology has resulted in access to unimaginable amounts of a new resources which are **structured** and **unstructured** data.
 

@@ -1,0 +1,60 @@
+---
+title: "Lecture 3 - Microservices architecture"
+---
+
+
+## Time in real-time data analysis
+
+In the case of batch processing, we process historical data and the start time of the processing process has nothing to do
+with the time of occurrence of the analyzed events.
+
+For streaming data, we have two time concepts:
+
+1. `event time` - time in which the event happened.
+2. `processing time` - time during which the system processes the event.
+
+In an ideal situation:
+</br>
+<img src = "img/rys2_1.png" class="center" />
+
+In fact, data processing always takes place with a certain delay, which is represented by the points appearing below the function for the ideal situation (below the diagonal).
+
+</br>
+<img src = "img/rys2_2.png" class="center" />
+
+In stream processing applications, the differences between the time of the occurrence of an event and its processing prove to be important.
+The most common causes of delay are data transmission over the network or lack of communication between the device and the network.
+A simple example is driving a car through a tunnel and tracking the position via a GPS application.
+
+Of course, you can count the number of such missed events and trigger an alarm if there are too many such rejects.
+
+The second (probably more often) used method is the use of the so-called correction `watermarking`.
+
+The real-time event processing process can be represented as a step function, represented in the figure:
+<img src="img/rys2_3.png" class="center" />
+
+As can be seen, not all events contribute to the analysis and processing.
+The implementation of the processing process along with additional time for the occurrence of events (watermarking) can be presented
+as a process covering all events above the dashed line.
+The extra time allowed for additional events to be processed, but there may still be points that will not be taken into account.
+<img src="img/rys2_4.png" class="center"  />
+
+
+The situations presented in the graphs clearly indicate why the concept of time is an important factor and requires precise definition already at the level of defining business needs.
+Timestamping data (events) is a difficult task.
+
+## time-windows
+
+**Tumbling window** is a fixed-length window.
+Its characteristic feature is that each event belongs to only one window.
+</br>
+<img src="img/rys2_5.png" class="center"  />
+
+**Sliding window** includes all events occurring in a certain length among themselves.
+</br>
+<img src="img/rys2_6.png" class="center"  />
+
+**disjoint window** has a fixed length, but allows one window to overlap another.
+Typically used to smooth data.
+<img src="img/rys2_7.png"  class="center" />
+
