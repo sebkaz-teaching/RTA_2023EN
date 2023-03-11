@@ -24,11 +24,24 @@ The lecture is carried out in hybrid mode.
 It is OPTIONAL and takes place in Aula I building G
 
 1. <del>20-02-2023 (Monday) 08:00-9:30 - Lecture 1</del>
+    Completed topics:
+    - structured and unstructured data, 
+    - introduction to Big Data
+    - data generation processes
+    - OLAP and OLTP data processing models.
 
-Structured and unstructured data, OLAP and OLTP data processing model.
-
-2. 27-02-2023 (Monday) 08:00-9:30 - Lecture 2
-3. 06-03-2023 (Monday) 08:00-9:30 - Lecture 3
+2. <del>27-02-2023 (Monday) 08:00-9:30 - Lecture 2</del>
+    Completed topics:
+    - batch processing vs data stream processing
+    - ETL
+    - the MapReduce pattern
+    - business requirements for the data stream
+    - definitions of: event, event stream processing, event analysis,
+    - batch apps and streaming apps
+3. <del>06-03-2023 (Monday) 08:00-9:30 - Lecture 3</del>
+    Completed topics:
+    - Time in streaming data processing
+    - Operation of the client-server system: REST API
 4. 13-03-2023 (Monday) 08:00-9:30 - Lecture 4
 
 Lectures end with a TEST: 10 questions - 20 minutes.
