@@ -122,7 +122,7 @@ These systems are typically designed with separate tiers for data processing and
 
 <!-- <img alt="OLTP system" src="img/baza1.png" align="center" /> -->
 ![](img/baza1.png){.center}
-![](img/main.jpeg){.center}
+
 Applications are usually connected to external services or face human users and continuously process incoming events such as orders, emails, or clicks on a website.
 
 When **an event** is processed, an application reads its state or updates it by running transactions against the remote database system. Often, a database system serves multiple applications that sometimes access the same databases or tables.

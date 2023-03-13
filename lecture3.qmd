@@ -2,7 +2,6 @@
 title: "Lecture 3 - Microservices architecture"
 ---
 
-
 ## Time in real-time data analysis
 
 In the case of batch processing, we process historical data and the start time of the processing process has nothing to do

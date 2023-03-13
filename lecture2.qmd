@@ -308,7 +308,3 @@ Streaming Analytics Applications are used in:
 1. Monitoring the quality of telephone networks
 2. Behavioral analysis of mobile application users
 3. ...
-
-
-
-

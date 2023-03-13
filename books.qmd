@@ -10,25 +10,29 @@ title: Books and WWW pages
 
 2. F. Hueske, V. Kalavri _Stream Processing with Apache Flink_ [Zobacz opis](http://helion.pl/view/111546/e_13f8.html) lub [Kup e-book](http://helion.pl/add111546~e_13f8_ebook)
 
-<div id="bellemare">
+<div id="bellemare"></div>
 3. A. Bellemare _Mikrousługi oparte na zdarzeniach. Wykorzystanie danych w organizacji na dużą skalę_ [Zobacz opis](http://helion.pl/view/111546/miopzd) lub [Kup](http://helion.pl/add111546~miopzd)
-</div>
+
+
+4. G. Shapira, T. Palino, R. Sivaram, K. Petty _Kafka The Definitive Guide. Real-time data and stream processing at scale_. Second edition, 2021. O'REILLY.
+
+5. J. Korstanje _Machine Learning for Streaming Data with Python_, 2022. PACKT
 
 ### Machine Learning with Pyton
 
-1. W. McKinney _Python w analizie danych. Przetwarzanie danych za pomocą pakietów Pandas i NumPy oraz środowiska IPython. Wydanie II_  [Zobacz opis](http://helion.pl/view/111546/pytand.html) lub [Kup książkę](http://helion.pl/add111546~pytand), [Kup e-book](http://helion.pl/add111546~pytand_ebook)
+1. A. Geron _Uczenie maszynowe z użyciem Scikit-Learn i TensorFlow. Wydanie II_. [Zobacz opis](http://helion.pl/view/111546/uczem2.html) lub [Kup książkę](http://helion.pl/add111546~uczem2), [Kup e-book](http://helion.pl/add111546~uczem2_ebook).
 
-2. D. McIlwraith, H. Marmanis, D. Babenko _Inteligentna sieć. Algorytmy przyszłości. Wydanie II (ebook)_ [Zobacz opis](http://helion.pl/view/111546/intsi2.html) lub [Kup książkę](http://helion.pl/add111546~intsi2), [Kup e-book](http://helion.pl/add111546~intsi2_ebook)
+2. Sebastian Raschka _Python. Uczenie maszynowe. Wydanie II_. [Zobacz opis](http://helion.pl/view/111546/pythu2.html) lub [Kup książkę](http://helion.pl/add111546~pythu2).
 
-3. Joel Grus _Data science od podstaw. Analiza danych w Pythonie. Wydanie II_. [Zobacz opis](http://helion.pl/view/111546/dascp2.html) lub [Kup książkę](http://helion.pl/add111546~dascp2), [Kup e-book](http://helion.pl/add111546~dascp2_ebook).
+3. W. McKinney _Python w analizie danych. Przetwarzanie danych za pomocą pakietów Pandas i NumPy oraz środowiska IPython. Wydanie II_  [Zobacz opis](http://helion.pl/view/111546/pytand.html) lub [Kup książkę](http://helion.pl/add111546~pytand), [Kup e-book](http://helion.pl/add111546~pytand_ebook)
 
-4. John W. Foreman _Mistrz analizy danych. Od danych do wiedzy_. [Zobacz opis](http://helion.pl/view/111546/mianda.html) lub [Kup książkę](http://helion.pl/add111546~mianda), [Kup e-book](http://helion.pl/add111546~mianda_ebook).
+4. D. McIlwraith, H. Marmanis, D. Babenko _Inteligentna sieć. Algorytmy przyszłości. Wydanie II (ebook)_ [Zobacz opis](http://helion.pl/view/111546/intsi2.html) lub [Kup książkę](http://helion.pl/add111546~intsi2), [Kup e-book](http://helion.pl/add111546~intsi2_ebook)
 
-5. A. Geron _Uczenie maszynowe z użyciem Scikit-Learn i TensorFlow. Wydanie II_. [Zobacz opis](http://helion.pl/view/111546/uczem2.html) lub [Kup książkę](http://helion.pl/add111546~uczem2), [Kup e-book](http://helion.pl/add111546~uczem2_ebook).
+5. Joel Grus _Data science od podstaw. Analiza danych w Pythonie. Wydanie II_. [Zobacz opis](http://helion.pl/view/111546/dascp2.html) lub [Kup książkę](http://helion.pl/add111546~dascp2), [Kup e-book](http://helion.pl/add111546~dascp2_ebook).
 
-6. Alberto Boschetti, Luca Massaron _Python. Podstawy nauki o danych_. [Zobacz opis](http://helion.pl/view/111546/pypod2.html) lub [Kup książkę](http://helion.pl/add111546~pypod2).
+6. John W. Foreman _Mistrz analizy danych. Od danych do wiedzy_. [Zobacz opis](http://helion.pl/view/111546/mianda.html) lub [Kup książkę](http://helion.pl/add111546~mianda), [Kup e-book](http://helion.pl/add111546~mianda_ebook).
 
-7. Sebastian Raschka _Python. Uczenie maszynowe. Wydanie II_. [Zobacz opis](http://helion.pl/view/111546/pythu2.html) lub [Kup książkę](http://helion.pl/add111546~pythu2).
+7. Alberto Boschetti, Luca Massaron _Python. Podstawy nauki o danych_. [Zobacz opis](http://helion.pl/view/111546/pypod2.html) lub [Kup książkę](http://helion.pl/add111546~pypod2).
 
 8. R. Schutt, C. O'Neil _Badanie danych. Raport z pierwszej lini działań_. [Zobacz opis](http://helion.pl/view/111546/badada.html) lub [Kup książkę](http://helion.pl/add111546~badada).
 
@@ -98,13 +102,15 @@ title: Books and WWW pages
 
 2. B. Frain, _Responsive Web Design. Projektowanie elastycznych witryn w HTML5 i CSS3_, [Zobacz opis](http://helion.pl/view/111546/resweb) lub [Kup e-book](http://helion.pl/add111546~resweb_ebook)
 
-3. K. Beck, _TDD. Sztuda tworzenia_, [Zobacz opis](http://helion.pl/view/111546/tddszv) lub [Kup teraz](http://helion.pl/add111546~tddszv), [Kup e-book](http://helion.pl/add111546~tddszv_ebook)
+3. K. Beck, _TDD. Sztuka tworzenia_, [Zobacz opis](http://helion.pl/view/111546/tddszv) lub [Kup teraz](http://helion.pl/add111546~tddszv), [Kup e-book](http://helion.pl/add111546~tddszv_ebook)
 
 4. B. Dayley, _Node.js, MongoDB, AngularJS. Kompendium wiedzy_, [Zobacz opis](http://helion.pl/view/111546/tddszv) lub [Kup teraz](http://helion.pl/add111546~tddszv), [Kup e-book](http://helion.pl/add111546~tddszv_ebook)
 
 ### Qauntum Computing
 
 1. A. Jacquier, O. Kondratyev, _Quantum Machine Learning and Optimisation in Finance. On the Road to Quantum Advantage_.
+
+2. L. Suskind, _Mechanika kwantowa, teoretyczne minimum_, 2014, Prószyński i s-ka
 
 ##  WWW Pages
 
