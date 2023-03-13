@@ -72,7 +72,18 @@ Implementation Example:
 </br>
 <img src = "img/kappa2.png" class="center" />
 
-## How do the Lambda and Kappa compare? 
+### Good 
+
+1. Applications can read and write directly to Kafka as developed. For existing event sources, listaners are used to stream writes directly from database logs eliminating the need for batch processing during ingress, resulting in fewer resources.
+2. Queries only need to look in a single serving lcation instead of going against batch and speed viwes. 
+
+### Bad
+
+1. not easy to implement, especially for the data replay.
+2. 
+
+
+### How do the Lambda and Kappa compare? 
 
 Both architectures handle real-time and historical analytics in a single environment. 
 However, one major benefit of the Kappa Architecture over the Lambda Architecture is that it enables you to build your streaming and batch processing system on a single technology. 

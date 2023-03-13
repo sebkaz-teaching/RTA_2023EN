@@ -128,8 +128,12 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#lambda-architecture" id="toc-lambda-architecture" class="nav-link active" data-scroll-target="#lambda-architecture">Lambda architecture</a></li>
-  <li><a href="#kappa-architecture" id="toc-kappa-architecture" class="nav-link" data-scroll-target="#kappa-architecture">Kappa architecture</a></li>
+  <li><a href="#kappa-architecture" id="toc-kappa-architecture" class="nav-link" data-scroll-target="#kappa-architecture">Kappa architecture</a>
+  <ul class="collapse">
+  <li><a href="#good" id="toc-good" class="nav-link" data-scroll-target="#good">Good</a></li>
+  <li><a href="#bad" id="toc-bad" class="nav-link" data-scroll-target="#bad">Bad</a></li>
   <li><a href="#how-do-the-lambda-and-kappa-compare" id="toc-how-do-the-lambda-and-kappa-compare" class="nav-link" data-scroll-target="#how-do-the-lambda-and-kappa-compare">How do the Lambda and Kappa compare?</a></li>
+  </ul></li>
   <li><a href="#publishsubscribe" id="toc-publishsubscribe" class="nav-link" data-scroll-target="#publishsubscribe">Publish/Subscribe</a></li>
   <li><a href="#apache-kafka" id="toc-apache-kafka" class="nav-link" data-scroll-target="#apache-kafka">Apache Kafka</a>
   <ul class="collapse">
@@ -193,12 +197,26 @@ ul.task-list li input[type="checkbox"] {
 <p>The Kappa Architecture is considered a simpler alternative to the Lambda Architecture as it uses the same technology stack to handle both real-time stream processing and historical batch processing. Both architectures entail the storage of historical data to enable large-scale analytics. Both architectures are also useful for addressing “human fault tolerance,” in which problems with the processing code (either bugs or just known limitations) can be overcome by updating the code and running it again on the historical data. The main difference with the Kappa Architecture is that all data is treated as if it were a stream, so the stream processing engine acts as the sole data transformation engine.</p>
 <p><br> <img src="img/kappa1.png" class="center"></p>
 <p>Implementation Example: <br> <img src="img/kappa2.png" class="center"></p>
+<section id="good" class="level3">
+<h3 class="anchored" data-anchor-id="good">Good</h3>
+<ol type="1">
+<li>Applications can read and write directly to Kafka as developed. For existing event sources, listaners are used to stream writes directly from database logs eliminating the need for batch processing during ingress, resulting in fewer resources.</li>
+<li>Queries only need to look in a single serving lcation instead of going against batch and speed viwes.</li>
+</ol>
 </section>
-<section id="how-do-the-lambda-and-kappa-compare" class="level2">
-<h2 class="anchored" data-anchor-id="how-do-the-lambda-and-kappa-compare">How do the Lambda and Kappa compare?</h2>
+<section id="bad" class="level3">
+<h3 class="anchored" data-anchor-id="bad">Bad</h3>
+<ol type="1">
+<li>not easy to implement, especially for the data replay.</li>
+<li></li>
+</ol>
+</section>
+<section id="how-do-the-lambda-and-kappa-compare" class="level3">
+<h3 class="anchored" data-anchor-id="how-do-the-lambda-and-kappa-compare">How do the Lambda and Kappa compare?</h3>
 <p>Both architectures handle real-time and historical analytics in a single environment. However, one major benefit of the Kappa Architecture over the Lambda Architecture is that it enables you to build your streaming and batch processing system on a single technology. This means you can build a stream processing application to handle real-time data, and if you need to modify your output, you update your code and then run it again over the data in the messaging engine in a batch manner. There is no separate technology to handle the batch processing, as is suggested by the Lambda Architecture.</p>
 <p>With a sufficiently fast stream processing engine, you may not need a separate technology that is optimized for batch processing. You simply read the stored streaming data in parallel (assuming the data in Kafka is appropriately split into separate channels, or “partitions”) and transform the data as if it were from a streaming source. For some environments, you can potentially create the analyzable output on demand, so when a new query is submitted from an end user, the data can be transformed ad hoc to optimally answer that query. Again, this requires a high-speed stream processing engine to enable low latency in the processing.</p>
 <p>While the Lambda Architecture does not specify the technologies that must be used, the batch processing component is often done on a large-scale data platform like Apache Hadoop. <em>The Hadoop Distributed File System</em> (HDFS) can economically store the <code>raw data</code> that can then be transformed via Hadoop tools into an analyzable format. While Hadoop is used for the batch processing component of the system, a separate engine designed for stream processing is used for the real-time analytics component. One advantage of the Lambda Architecture, however, is that much larger data sets (in the petabyte range) can be stored and processed more efficiently in Hadoop for large-scale historical analysis.</p>
+</section>
 </section>
 <section id="publishsubscribe" class="level2">
 <h2 class="anchored" data-anchor-id="publishsubscribe">Publish/Subscribe</h2>
