@@ -166,61 +166,59 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>A streaming architecture is a defined set of technologies that work together to handle stream processing, which is the practice of taking action on a series of data at the time the data is created. In many modern deployments, Apache Kafka acts as the store for the streaming data, and then multiple stream processors can act on the data stored in Kafka to produce multiple outputs. Some streaming architectures include workflows for both stream processing and batch processing, which either entails other technologies to handle large-scale batch processing, or using Kafka as the central store as specified in the Kappa Architecture.</p>
+<p>A streaming architecture is a defined set of technologies that work together to handle stream processing, which is the practice of taking action on a series of data at the time the data is created. In many modern deployments, Apache Kafka acts as the store for the streaming data, and then multiple stream processors can act on the data stored in Kafka to produce multiple outputs. Some streaming architectures include workflows for both stream processing and batch processing, which either entail other technologies to handle large-scale batch processing or use Kafka as the central store as specified in the Kappa Architecture.</p>
 <p>An excellent real-time data processing architecture needs to be fault-tolerant and scalable; it needs to support batch and incremental updates and be extensible.</p>
-<p>At the begining we explore two essential data processing architectures known as <code>Lambda</code> and <code>Kappa</code> that serve as the backbone of various enterprise application.</p>
+<p>In the beginning, we explore two essential data processing architectures, <code>Lambda</code> and <code>Kappa</code>, that serve as the backbone of various enterprise applications.</p>
 <section id="lambda-architecture" class="level2">
 <h2 class="anchored" data-anchor-id="lambda-architecture">Lambda architecture</h2>
-<p>Lambda architecture comprises: <code>Batch Layer</code>, <code>Speed Layer</code> (also known as Stream layer), and <code>Serving Layer</code>.</p>
+<p>Lambda architecture comprises <code>Batch Layer</code>, <code>Speed Layer</code> (the Stream layer), and <code>Serving Layer</code>.</p>
 <p><em>The batch layer</em> operates on the complete data and thus allows the system to produce the most accurate results. However, the results come at the cost of high latency due to high computation time. The batch layer stores the raw data as it arrives and computes the batch views for consumption. Naturally, batch processes will occur at some interval and will be long-lived. The scope of data is anywhere from hours to years.</p>
-<p><em>The speed layer</em> generates results in a low-latency, near real-time fashion. The speed layer is used to compute the real-time views to complement the batch views. The speed layer receives the arriving data and performs incremental updates to the batch layer results. Thanks to the incremental algorithms implemented at the speed layer, the computation cost is significantly reduced.</p>
-<p>The batch views may be processed with more complex or expensive rules and may have better data quality and less skew, while the real-time views give you up-to-the-moment access to the latest possible data.</p>
-<p>Finally, <em>the serving layer</em> enables various queries of the results sent from the batch and speed layers. The outputs from the batch layer in the form of batch views and the speed layer in the form of near-real-time views are forwarded to the serving layer, which uses this data to cater to the pending queries on an ad-hoc basis.</p>
+<p><em>The speed layer</em> generates results in a low-latency, near real-time fashion. The speed layer computes the real-time views to complement the batch views. The speed layer receives the arriving data and updates the batch layer results. The computation cost is significantly reduced thanks to the incremental algorithms implemented at the speed layer. The batch views may be processed with more complex or expensive rules and may have better data quality and less skew, while the real-time views give you up-to-the-moment access to the latest possible data.</p>
+<p>Finally, the <em>serving layer</em> enables various queries of the results sent from the batch and speed layers. The outputs from the batch layer in the form of batch views and the speed layer in the form of near-real-time opinions are forwarded to the serving layer, which uses this data to cater to the pending queries on an ad-hoc basis.</p>
 <p><br> <img src="img/lambda_arch.png" class="center"></p>
 <p>Implementation Example: <br> <img src="img/lambda_app.png" class="center"></p>
 <p><strong>Good</strong></p>
 <ol type="1">
 <li>Good balance of speed, reliability, and scalability.</li>
 <li>Access to both real-time and offline results in covering many data analysis scenarios very well.</li>
-<li>Having access to a complete data set in a batch window may yield specific optimizations that make Lambda better performing and perhaps even simpler to implement.</li>
+<li>Accessing a complete data set in a batch window may yield specific optimizations that make Lambda better performing and even simpler to implement.</li>
 </ol>
 <p><strong>Bad</strong></p>
 <ol type="1">
-<li>Internal processing logic is the same (batch an real-time layers) - many duplicate modules and coding.</li>
-<li>A data set modeled with Lambda architecture is difficult to migrate and reorganize.</li>
+<li>Internal processing logic is the same (batch and real-time layers) - many duplicate modules and coding.</li>
+<li>A data set modelled with Lambda architecture is difficult to migrate and reorganize.</li>
 </ol>
 </section>
 <section id="kappa-architecture" class="level2">
 <h2 class="anchored" data-anchor-id="kappa-architecture">Kappa architecture</h2>
-<p>The Kappa Architecture is a software architecture used for processing streaming data. The main premise behind the Kappa Architecture is that you can perform both real-time and batch processing, especially for analytics, with a single technology stack. It is based on a streaming architecture in which an incoming series of data is first stored in a messaging engine like Apache Kafka. From there, a stream processing engine will read the data and transform it into an analyzable format, and then store it into an analytics database for end users to query.</p>
-<p>The Kappa Architecture supports (near) real-time analytics when the data is read and transformed immediately after it is inserted into the messaging engine. This makes recent data quickly available for end user queries. It also supports historical analytics by reading the stored streaming data from the messaging engine at a later time in a batch manner, to create additional analyzable outputs for more types of analysis.</p>
-<p>The Kappa Architecture is considered a simpler alternative to the Lambda Architecture as it uses the same technology stack to handle both real-time stream processing and historical batch processing. Both architectures entail the storage of historical data to enable large-scale analytics. Both architectures are also useful for addressing “human fault tolerance,” in which problems with the processing code (either bugs or just known limitations) can be overcome by updating the code and running it again on the historical data. The main difference with the Kappa Architecture is that all data is treated as if it were a stream, so the stream processing engine acts as the sole data transformation engine.</p>
+<p>The Kappa Architecture is a software architecture used for processing streaming data. The central premise behind the Kappa Architecture is that you can perform real-time and batch processing, especially for analytics, with a single technology stack. It is based on a streaming architecture in which an incoming data series is first stored in a messaging engine like Apache Kafka. From there, a stream processing engine will read the data, transform it into an analyzable format, and then store it in an analytics database for end users to query.</p>
+<p>The Kappa Architecture supports (near) real-time analytics when the data is read and transformed immediately after it is inserted into the messaging engine. This makes recent data quickly available for end-user queries. It also supports historical analytics by reading the stored streaming data from the messaging engine later in a batch manner to create additional analyzable outputs for more types of analysis.</p>
+<p>The Kappa Architecture is a simpler alternative to the Lambda Architecture as it uses the same technology stack to handle real-time stream and historical batch processing. Both architectures entail the storage of historical data to enable large-scale analytics. Both architectures are also helpful in addressing “human fault tolerance,” in which problems with the processing code (bugs or known limitations) can be overcome by updating the code and rerunning it on historical data. The main difference with the Kappa Architecture is that all data is treated as a stream, so the stream processing engine acts as the sole data transformation engine.</p>
 <p><br> <img src="img/kappa1.png" class="center"></p>
 <p>Implementation Example: <br> <img src="img/kappa2.png" class="center"></p>
 <section id="good" class="level3">
 <h3 class="anchored" data-anchor-id="good">Good</h3>
 <ol type="1">
-<li>Applications can read and write directly to Kafka as developed. For existing event sources, listaners are used to stream writes directly from database logs eliminating the need for batch processing during ingress, resulting in fewer resources.</li>
-<li>Queries only need to look in a single serving lcation instead of going against batch and speed viwes.</li>
+<li>Applications can read and write directly to Kafka as developed. For existing event sources, listeners are used to streaming reports now from database logs eliminating the need for batch processing during ingress, resulting in fewer resources.</li>
+<li>Queries only need to look at a single serving location instead of going against batch and speed views.</li>
 </ol>
 </section>
 <section id="bad" class="level3">
 <h3 class="anchored" data-anchor-id="bad">Bad</h3>
 <ol type="1">
 <li>not easy to implement, especially for the data replay.</li>
-<li></li>
 </ol>
 </section>
 <section id="how-do-the-lambda-and-kappa-compare" class="level3">
 <h3 class="anchored" data-anchor-id="how-do-the-lambda-and-kappa-compare">How do the Lambda and Kappa compare?</h3>
-<p>Both architectures handle real-time and historical analytics in a single environment. However, one major benefit of the Kappa Architecture over the Lambda Architecture is that it enables you to build your streaming and batch processing system on a single technology. This means you can build a stream processing application to handle real-time data, and if you need to modify your output, you update your code and then run it again over the data in the messaging engine in a batch manner. There is no separate technology to handle the batch processing, as is suggested by the Lambda Architecture.</p>
-<p>With a sufficiently fast stream processing engine, you may not need a separate technology that is optimized for batch processing. You simply read the stored streaming data in parallel (assuming the data in Kafka is appropriately split into separate channels, or “partitions”) and transform the data as if it were from a streaming source. For some environments, you can potentially create the analyzable output on demand, so when a new query is submitted from an end user, the data can be transformed ad hoc to optimally answer that query. Again, this requires a high-speed stream processing engine to enable low latency in the processing.</p>
-<p>While the Lambda Architecture does not specify the technologies that must be used, the batch processing component is often done on a large-scale data platform like Apache Hadoop. <em>The Hadoop Distributed File System</em> (HDFS) can economically store the <code>raw data</code> that can then be transformed via Hadoop tools into an analyzable format. While Hadoop is used for the batch processing component of the system, a separate engine designed for stream processing is used for the real-time analytics component. One advantage of the Lambda Architecture, however, is that much larger data sets (in the petabyte range) can be stored and processed more efficiently in Hadoop for large-scale historical analysis.</p>
+<p>Both architectures handle real-time and historical analytics in a single environment. However, one significant benefit of the Kappa Architecture over the Lambda Architecture is that it enables you to build your streaming and batch processing system on a single technology. This means you can build a stream processing application to handle real-time data, and if you need to modify your output, you update your code and then rerun it over the data in the messaging engine in a batch manner. As suggested by the Lambda Architecture, there is no separate technology to handle batch processing.</p>
+<p>With a sufficiently fast-stream processing engine, you may not need a different technology optimized for batch processing. You read the stored streaming data in parallel (assuming the data in Kafka is appropriately split into separate channels, or “partitions”) and transform the data as if it were from a streaming source. For some environments, you can create the analyzable output on demand. When a new query is submitted from an end user, the data can be transformed ad hoc to answer that query optimally. Again, this requires a high-speed stream processing engine to enable low latency.</p>
+<p>While the Lambda Architecture does not specify the technologies that must be used, the batch processing component is often done on a large-scale data platform like Apache Hadoop. <em>The Hadoop Distributed File System</em> (HDFS) can economically store the <code>raw data</code> that can be transformed via Hadoop tools into an analyzable format. While Hadoop is used for the batch-processing component of the system, a separate engine designed for stream processing is used for the real-time analytics component. However, one advantage of the Lambda Architecture is that much larger data sets (in the petabyte range) can be stored and processed more efficiently in Hadoop for large-scale historical analysis.</p>
 </section>
 </section>
 <section id="publishsubscribe" class="level2">
 <h2 class="anchored" data-anchor-id="publishsubscribe">Publish/Subscribe</h2>
-<p><code>Publish/Subscribe</code> messaging system is a critical component of data-driven apps. <em>Pub/Sub messaging</em> is a pattern that is characterized by the sender (publisher) of a piece of data (message) not specificially directing it to a receiver. Pub/sub systems often have a broker, a central point where messages.</p>
+<p>The <code>Publish/Subscribe</code> messaging system is critical to data-driven apps. <em>Pub/Sub messaging</em> is a pattern characterized by the sender (publisher) of a piece of data (message) not explicitly directing it to a receiver. Pub/sub-systems often have a broker, a central point where messages are.</p>
 </section>
 <section id="apache-kafka" class="level2">
 <h2 class="anchored" data-anchor-id="apache-kafka">Apache Kafka</h2>
@@ -228,42 +226,42 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>A distributed streaming platform</p>
 </blockquote>
-<p><strong>What is an “A distributed streaming platform”?</strong></p>
-<p>First, I would like to remind you what a <code>stream</code> is. Streams are just unlimited data, data that never end. It just keeps arriving, and you can process it in real time.</p>
-<p>And <code>distributed</code>? Distributed means that Kafka works in a cluster, each node in the cluster is called Broker. Those brokers are just servers executing a copy of apache Kafka.</p>
-<p>So, basically, Kafka is a set of machines working together to be able to handle and process real-time infinite data.</p>
-<p>His distributed architecture is one of the reasons that made Kafka so popular. The Brokers is what makes it so resilient, reliable, scalable, and fault-tolerant. That’s why Kafka is so performer and secure. But why there is this misconception that Kafka is just another <code>messaging system</code>?</p>
-<p>To respond to that answer, we need first to explain how messaging works.</p>
+<p><strong>What is an “Distributed streaming platform”?</strong></p>
+<p>First, I want to remind you what a <code>stream</code> is. Streams are just unlimited data, data that never end. It just keeps arriving, and you can process it in real time.</p>
+<p>And <code>distributed</code>? Distributed means that Kafka works in a cluster, and each node in the group is called Broker. Those brokers are just servers executing a copy of apache Kafka.</p>
+<p>So, Kafka is a set of machines working together to be able to handle and process real-time unlimited data.</p>
+<p>His distributed architecture is one of the reasons that made Kafka so famous. The Brokers make it resilient, reliable, scalable, and fault-tolerant. That’s why Kafka is so performer and secure. But why is there this misconception that Kafka is another <code>messaging system</code>?</p>
+<p>To respond to that answer, we must first explain how messaging works.</p>
 <section id="messaging-system" class="level3">
 <h3 class="anchored" data-anchor-id="messaging-system">Messaging system</h3>
-<p>Messaging, very briefly, it’s just the act to send a message from one place to another. It has three principal actors:</p>
+<p>Messaging, very briefly, it’s just the act of sending a message from one place to another. It has three principal actors:</p>
 <ul>
-<li>Producer: Who produces and send the messages to one or more queues;</li>
-<li>Queue: A buffer data structure, that receives (from the producers) and delivers messages (to the consumers) in a FIFO (First-In First-Out) way. When a message is delivered, it’s removed forever from the queue, there’s no chance to get it back;</li>
+<li>Producer: Who produces and sends the messages to one or more queues;</li>
+<li>Queue: A buffer data structure that receives (from the producers) and delivers messages (to the consumers) in a FIFO (First-In First-Out) way. When a notice is given, it’s removed forever from the queue; there’s no chance of getting it back;</li>
 <li>Consumer: Who is subscribed to one or more queues and receives their messages when published.</li>
 </ul>
-<p>And that is it, this is how the messaging works (very briefly, there’s a lot more). As you can see there’s nothing about streams, real-time, cluster (depending on what tool you chose, you can use a cluster too, but it’s not native, like Kafka).</p>
+<p>And that is it; this is how the messaging works (very briefly, there’s a lot more). As you can see, there’s nothing about streams, real-time, or clusters (depending on your chosen tool, you can use a set too, but it’s not native, like Kafka).</p>
 </section>
 <section id="kafka-architecture" class="level3">
 <h3 class="anchored" data-anchor-id="kafka-architecture">Kafka architecture</h3>
 <p>A lot of information You can find in this <a href="https://www.cloudkarafka.com/blog/part1-kafka-for-beginners-what-is-apache-kafka.html">link</a>.</p>
-<p>Now that we know how messaging works, let’s get dive into the Kafka world. In Kafka, we also have the <code>Producers</code> and <code>Consumers</code>, they work in a very similar way that they work in the messaging, both producing and consuming messages.</p>
+<p>Now that we know how messaging works let’s dive into the Kafka world. In Kafka, we also have the <code>Producers</code> and <code>Consumers</code>; they work in a very similar way that they work in the messaging producing and consuming messages.</p>
 <p><br> <img src="img/kafka1.png" class="center"></p>
-<p>As you can see it is very similar to what we’ve discussed about messaging, but here we don’t have the <code>Queue</code> concept, instead, we have the concept of <code>Topics</code>.</p>
-<p>The <code>Topic</code> is a very specific type of data stream, it’s very similar to a Queue, it receives and delivers messages as well, but there are some concepts that we need to understand about topics:</p>
+<p>As you can see, it is very similar to what we’ve discussed about messaging, but here we don’t have the <code>Queue</code> concept. Instead, we have the idea of <code>Topics</code>.</p>
+<p>The <code>Topic</code> is a particular type of data stream; it’s very similar to a Queue, it receives and delivers messages as well, but there are some concepts that we need to understand about topics:</p>
 <ul>
-<li>A topic is divided into <code>partitions</code>, each topic can have one or more partitions and we need to specify that number when we’re creating the topic. You can imagine the topic as a folder in the operation system and each folder inside her as a partition. <!-- - If we don’t give any key to a message when we’re producing it, by default, the producers will send the message in a round-robin way, each partition will receive a message (even if they are sent by the same producer). 
+<li>A topic is divided into <code>partitions</code>; each case can have one or more partitions, and we need to specify that number when creating the issue. You can imagine the topic as a folder in the operating system and each folder inside her as a partition. <!-- - If we don’t give any key to a message when we’re producing it, by default, the producers will send the message in a round-robin way, each partition will receive a message (even if they are sent by the same producer). 
 Because of that, we aren’t able to guarantee the delivery order at the partition level, if we want to send a message always to the same partition, we need to give a key to our messages. This will ensure that the message will always be sent to the same partition; --></li>
-<li>Each message will be stored in the broker disk and will receive an offset (unique identifier). This offset is unique at the partition level, each partition has its owns offsets. That is one more reason that makes Kafka so special, it stores the messages in the disk (like a database, and in fact, Kafka is a database too) to be able to recover them later if necessary. Different from a messaging system, that the message is deleted after being consumed;</li>
-<li>The producers use the offset to read the messages, they read from the oldest to the newest. In case of consumer failure, when it recovers, will start reading from the last offset. <br> <img src="img/kafka2.png" class="center"></li>
+<li>Each message will be stored in the broker disk and receive an offset (unique identifier). This offset is unique at the partition level; each partition has its owns offsets. That is one more reason that makes Kafka so special, it stores the messages in the disk (like a database, and in fact, Kafka is a database too) to recover them later if necessary. Different from a messaging system, the message is deleted after being consumed;</li>
+<li>The consumer use the offset to read the messages, from the oldest to the newest. In case of consumer failure, it will start reading from the final place when it recovers. <br> <img src="img/kafka2.png" class="center"></li>
 </ul>
 </section>
 <section id="brokers" class="level3">
 <h3 class="anchored" data-anchor-id="brokers">Brokers</h3>
 <p>As said before, Kafka works in a distributed way. A Kafka cluster may contain many brokers as needed.</p>
 <p><br> <img src="img/kafka3.png" class="center"></p>
-<p>Each broker in a cluster is identified by an ID and contains at least one partition of a topic. To configure the number of the partitions in each broker, we need to configure something called Replication Factor when creating a topic. Let’s say that we have three brokers in our cluster, a topic with three partitions and a Replication Factor of three, in that case, each broker will be responsible for one partition of the topic.</p>
-<p>As you can see in the above image, <span class="math inline">\(Topic_1\)</span> has three partitions, each broker is responsible for a partition of the topic, so, the Replication Factor of the <span class="math inline">\(Topic_1\)</span> is three. It’s very important that the number of the partitions match the number of the brokers, in this way, each broker will be responsible for a single partition of the topic.</p>
+<p>Each broker in a cluster is identified by an ID and contains at least one topic partition. To configure the number of partitions in each broker, we need to configure something called Replication Factor when creating a topic. Let’s say we have three brokers in our cluster, a topic with three partitions and a Replication Factor of three; in that case, each broker will be responsible for one section of the issue.</p>
+<p>As you can see in the above image, <span class="math inline">\(Topic_1\)</span> has three partitions; each broker is responsible for a section of the topic, so the Replication Factor of the <span class="math inline">\(Topic_1\)</span> is three. The number of partitions must match the number of brokers; in this way, each broker will be responsible for a single section of the topic.</p>
 </section>
 <section id="producers" class="level3">
 <h3 class="anchored" data-anchor-id="producers">Producers</h3>
