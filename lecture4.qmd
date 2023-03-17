@@ -206,6 +206,5 @@ The data from a single topic will be load-balancing between the consumers, with 
 The ideal is to have the same number of consumers in a group that we have as partitions in a topic, in this way, every consumer read from only one. 
 When adding consumers to a group, you need to be careful, if the number of consumers is greater than the number of partitions, some consumers will not read from any topic and will stay idle.
 
-
 </br>
 <img src="img/kafka4.png" class="center" />

@@ -42,7 +42,10 @@ It is OPTIONAL and takes place in Aula I building G
     Completed topics:
     - Time in streaming data processing
     - Operation of the client-server system: REST API
-4. 13-03-2023 (Monday) 08:00-9:30 - Lecture 4
+4. <del>13-03-2023 (Monday) 08:00-9:30 - Lecture 4</del>
+    Completed topics: 
+    - Lambda and Kappa architectures
+    - pub/sub communication for Apache Kafka
 
 Lectures end with a TEST: 10 questions - 20 minutes.
 The test is conducted via MS Teams.
