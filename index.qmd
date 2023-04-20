@@ -52,10 +52,10 @@ The test is conducted via MS Teams.
 
 #### Labs
 
-1. 21-03-2023 (tuesday) 08:00-11:30 - C4D 2 groups
-2. 28-03-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy
-3. 04-04-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
-4. 18-04-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
+1. <del>21-03-2023 (tuesday) 08:00-11:30 - C4D 2 groups</del>
+2. <del>28-03-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy</del>
+3. <del>04-04-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy </del>
+4. <del>18-04-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy </del>
 5. 25-04-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
 6. 09-05-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
 7. 16-05-2023 (tuesday) 08:00-11:30 - C4D, 2 grupy 
